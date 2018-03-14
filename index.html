@@ -77,9 +77,9 @@ div.tooltip {
 }
 
   </style>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://d3js.org/queue.v1.min.js" type="text/javascript"></script>
-    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js" type="text/javascript"></script>
+    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"/>
     <link rel="stylesheet" type="text/css" href="sequences.css"/>
@@ -108,17 +108,11 @@ div.tooltip {
 </div>
 </div>
 <script>
-//If you get an error that says "undefined object d.source.x" (and edges show up but nodes don't) this means that there is something wrong with the data files. Must be some mismatch between the node and edgelist files! Start there, you can solve it!
-// Define the div for the tooltip
-/*var div = d3.select("body").append("div") 
-    .attr("class", "tooltip")       
-    .style("opacity", 0);*/
-
 //To show "Of all passengers from Country X travelling within Europe, Y% are travelling to Country Z"
   function arcDiagram() {
     queue()
-    .defer(d3.csv, "eu_nodelist.csv")
-    .defer(d3.csv, "eu_edgelist_relative_to_own.csv")
+    .defer(d3.csv, "./eu_nodelist.csv")
+    .defer(d3.csv, "./eu_edgelist_relative_to_own.csv")
     .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
     function createArcDiagram(nodes,edges) {
       
@@ -206,8 +200,8 @@ div.tooltip {
 //to show "of all EU passengers flying within Europe, X% are from Country Y"
   function arcDiagram2() {
     queue()
-    .defer(d3.csv, "eu_nodelist.csv")
-    .defer(d3.csv, "eu_edgelist_relative.csv")
+    .defer(d3.csv, "./eu_nodelist.csv")
+    .defer(d3.csv, "./eu_edgelist_relative.csv")
     .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
     function createArcDiagram(nodes,edges) {
       
@@ -295,8 +289,8 @@ div.tooltip {
 //To show: absolute number of trips (with at least 1 night stay) from country X to country Y
   function arcDiagram3() {
     queue()
-    .defer(d3.csv, "eu_nodelist_other.csv")
-    .defer(d3.csv, "tourism_edgelist.csv")
+    .defer(d3.csv, "./eu_nodelist_other.csv")
+    .defer(d3.csv, "./tourism_edgelist.csv")
     .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
     function createArcDiagram(nodes,edges) {
       
@@ -388,8 +382,8 @@ div.tooltip {
   //To show: absolute number of trips (with at least 1 night stay) from country X to country Y
   function arcDiagram4() {
     queue()
-    .defer(d3.csv, "erasmus_nodelist.csv")
-    .defer(d3.csv, "erasmus_edges.csv")
+    .defer(d3.csv, "./erasmus_nodelist.csv")
+    .defer(d3.csv, "./erasmus_edges.csv")
     .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
     function createArcDiagram(nodes,edges) {
       
@@ -462,23 +456,12 @@ div.tooltip {
         d3.select("#svg4").selectAll("path").style("stroke", function (p) {return p.source == d ? colorScale4 : "lightgrey"})
           .style("opacity", function (p) {return p.source == d ? (1.5*opacityScale4(p.weight)) : (0.5*opacityScale3(p.weight))})
 
-/*        div.transition()    
-                .duration(200)    
-                .style("opacity", .9);    
-            div .html(d.abbrev + "Total Students Abroad:" + d.total)  
-                .style("left", (d3.event.pageX) + "px")   
-                .style("top", (d3.event.pageY - 28) + "px");*/
-
       }
       
       function nodeReset4(d,i) {
         d3.select("#svg4").selectAll("circle").style("fill", nodeColor).attr("r",12)
         d3.select("#svg4").selectAll("path").style("stroke", function(d) {return colorScale4(d.weight)})
         .style("opacity", function(d) {return opacityScale4(d.weight)})
-
-       /* div.transition()    
-                .duration(500)    
-                .style("opacity", 0); */
 
       }
 
