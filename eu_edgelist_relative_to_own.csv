@@ -1,0 +1,897 @@
+source,target,weight
+Belgium,Belgium,0.14
+Belgium,Bulgaria,0.57
+Belgium,Czech Republic,1.93
+Belgium,Denmark,2.49
+Belgium,Germany,7.83
+Belgium,Estonia,0.21
+Belgium,Ireland,2.44
+Belgium,Greece,1.8
+Belgium,Spain,21.15
+Belgium,France,8.74
+Belgium,Croatia,0.28
+Belgium,Italy,14.14
+Belgium,Cyprus,0.16
+Belgium,Latvia,0.77
+Belgium,Lithuania,0.52
+Belgium,Luxembourg,0.01
+Belgium,Hungary,2.34
+Belgium,Malta,0.33
+Belgium,Netherlands,1.26
+Belgium,Austria,1.83
+Belgium,Poland,3.1
+Belgium,Portugal,4.73
+Belgium,Romania,2.26
+Belgium,Slovenia,0.45
+Belgium,Slovakia,0.35
+Belgium,Finland,0.96
+Belgium,Sweden,2.06
+Belgium,United Kingdom,7.78
+Belgium,Iceland,0
+Belgium,Norway,1.2
+Belgium,Switzerland,4.65
+Belgium,Turkey,3.53
+Bulgaria,Belgium,3.27
+Bulgaria,Bulgaria,3.29
+Bulgaria,Czech Republic,0.63
+Bulgaria,Denmark,0.18
+Bulgaria,Germany,19.79
+Bulgaria,Estonia,0
+Bulgaria,Ireland,0
+Bulgaria,Greece,2.99
+Bulgaria,Spain,6.29
+Bulgaria,France,3.51
+Bulgaria,Croatia,0.02
+Bulgaria,Italy,8.86
+Bulgaria,Cyprus,1.58
+Bulgaria,Latvia,0
+Bulgaria,Lithuania,0
+Bulgaria,Luxembourg,0
+Bulgaria,Hungary,0.02
+Bulgaria,Malta,0.63
+Bulgaria,Netherlands,3.72
+Bulgaria,Austria,9.41
+Bulgaria,Poland,1.49
+Bulgaria,Portugal,0.02
+Bulgaria,Romania,2.4
+Bulgaria,Slovenia,0
+Bulgaria,Slovakia,0
+Bulgaria,Finland,0
+Bulgaria,Sweden,0.94
+Bulgaria,United Kingdom,23.61
+Bulgaria,Iceland,0
+Bulgaria,Norway,0
+Bulgaria,Switzerland,0.82
+Bulgaria,Turkey,6.51
+Czech Republic,Belgium,5.49
+Czech Republic,Bulgaria,0.31
+Czech Republic,Czech Republic,1.19
+Czech Republic,Denmark,1.86
+Czech Republic,Germany,12.82
+Czech Republic,Estonia,0
+Czech Republic,Ireland,2.77
+Czech Republic,Greece,1.1
+Czech Republic,Spain,4.5
+Czech Republic,France,10.33
+Czech Republic,Croatia,0
+Czech Republic,Italy,11.18
+Czech Republic,Cyprus,0
+Czech Republic,Latvia,0.4
+Czech Republic,Lithuania,0.02
+Czech Republic,Luxembourg,0
+Czech Republic,Hungary,0.61
+Czech Republic,Malta,0
+Czech Republic,Netherlands,6.69
+Czech Republic,Austria,1.93
+Czech Republic,Poland,2.25
+Czech Republic,Portugal,0.76
+Czech Republic,Romania,0.91
+Czech Republic,Slovenia,0.13
+Czech Republic,Slovakia,0.8
+Czech Republic,Finland,2.49
+Czech Republic,Sweden,1.5
+Czech Republic,United Kingdom,21.35
+Czech Republic,Iceland,0
+Czech Republic,Norway,1.3
+Czech Republic,Switzerland,3.68
+Czech Republic,Turkey,3.63
+Denmark,Belgium,2.18
+Denmark,Bulgaria,0.03
+Denmark,Czech Republic,0.57
+Denmark,Denmark,8.34
+Denmark,Germany,11.92
+Denmark,Estonia,0.41
+Denmark,Ireland,0.97
+Denmark,Greece,0.52
+Denmark,Spain,9.82
+Denmark,France,5.06
+Denmark,Croatia,0.16
+Denmark,Italy,3.41
+Denmark,Cyprus,0
+Denmark,Latvia,0.66
+Denmark,Lithuania,0.85
+Denmark,Luxembourg,0.29
+Denmark,Hungary,0.42
+Denmark,Malta,0.08
+Denmark,Netherlands,5.96
+Denmark,Austria,2.22
+Denmark,Poland,2.07
+Denmark,Portugal,1.08
+Denmark,Romania,0.07
+Denmark,Slovenia,0.05
+Denmark,Slovakia,0
+Denmark,Finland,3.03
+Denmark,Sweden,7.67
+Denmark,United Kingdom,12.79
+Denmark,Iceland,1.43
+Denmark,Norway,11.28
+Denmark,Switzerland,3.44
+Denmark,Turkey,3.22
+Germany,Belgium,1.29
+Germany,Bulgaria,0.6
+Germany,Czech Republic,0.72
+Germany,Denmark,2.24
+Germany,Germany,18.77
+Germany,Estonia,0.22
+Germany,Ireland,1.18
+Germany,Greece,1.47
+Germany,Spain,14.72
+Germany,France,5.23
+Germany,Croatia,0.56
+Germany,Italy,7.78
+Germany,Cyprus,0.08
+Germany,Latvia,0.55
+Germany,Lithuania,0.28
+Germany,Luxembourg,0.27
+Germany,Hungary,1.03
+Germany,Malta,0.34
+Germany,Netherlands,2.92
+Germany,Austria,5.34
+Germany,Poland,2.62
+Germany,Portugal,2.41
+Germany,Romania,1.35
+Germany,Slovenia,0.17
+Germany,Slovakia,0
+Germany,Finland,1.38
+Germany,Sweden,2.34
+Germany,United Kingdom,10.08
+Germany,Iceland,0.17
+Germany,Norway,1.31
+Germany,Switzerland,5.07
+Germany,Turkey,7.51
+Estonia,Belgium,2.78
+Estonia,Bulgaria,0
+Estonia,Czech Republic,0
+Estonia,Denmark,6.17
+Estonia,Germany,17.68
+Estonia,Estonia,0.99
+Estonia,Ireland,0
+Estonia,Greece,0
+Estonia,Spain,2.32
+Estonia,France,1.74
+Estonia,Croatia,0
+Estonia,Italy,4.05
+Estonia,Cyprus,0
+Estonia,Latvia,10
+Estonia,Lithuania,3.59
+Estonia,Luxembourg,0
+Estonia,Hungary,0
+Estonia,Malta,0
+Estonia,Netherlands,5.12
+Estonia,Austria,0.79
+Estonia,Poland,1.87
+Estonia,Portugal,0.3
+Estonia,Romania,0
+Estonia,Slovenia,0
+Estonia,Slovakia,0
+Estonia,Finland,14.54
+Estonia,Sweden,6.47
+Estonia,United Kingdom,8.73
+Estonia,Iceland,0
+Estonia,Norway,8.73
+Estonia,Switzerland,0.23
+Estonia,Turkey,3.9
+Ireland,Belgium,2.26
+Ireland,Bulgaria,0
+Ireland,Czech Republic,0.91
+Ireland,Denmark,1.03
+Ireland,Germany,6.67
+Ireland,Estonia,0
+Ireland,Ireland,0.32
+Ireland,Greece,0
+Ireland,Spain,9.55
+Ireland,France,7.1
+Ireland,Croatia,0.02
+Ireland,Italy,3.94
+Ireland,Cyprus,0
+Ireland,Latvia,0.63
+Ireland,Lithuania,0.77
+Ireland,Luxembourg,0.08
+Ireland,Hungary,0.94
+Ireland,Malta,0.25
+Ireland,Netherlands,3.67
+Ireland,Austria,0.78
+Ireland,Poland,4.47
+Ireland,Portugal,1.5
+Ireland,Romania,0.53
+Ireland,Slovenia,0
+Ireland,Slovakia,0.61
+Ireland,Finland,0
+Ireland,Sweden,0.23
+Ireland,United Kingdom,50.86
+Ireland,Iceland,0.01
+Ireland,Norway,0.66
+Ireland,Switzerland,1.46
+Ireland,Turkey,0.74
+Greece,Belgium,2.5
+Greece,Bulgaria,0.68
+Greece,Czech Republic,0.55
+Greece,Denmark,0.82
+Greece,Germany,12.14
+Greece,Estonia,0
+Greece,Ireland,0
+Greece,Greece,39.01
+Greece,Spain,1.5
+Greece,France,3.81
+Greece,Croatia,0
+Greece,Italy,8.63
+Greece,Cyprus,7.51
+Greece,Latvia,0
+Greece,Lithuania,0.01
+Greece,Luxembourg,0
+Greece,Hungary,0.5
+Greece,Malta,0.14
+Greece,Netherlands,1.55
+Greece,Austria,1.35
+Greece,Poland,0.4
+Greece,Portugal,0
+Greece,Romania,0.91
+Greece,Slovenia,0
+Greece,Slovakia,0.15
+Greece,Finland,0.01
+Greece,Sweden,0.44
+Greece,United Kingdom,9.15
+Greece,Iceland,0
+Greece,Norway,0.02
+Greece,Switzerland,3.55
+Greece,Turkey,4.68
+Spain,Belgium,3.63
+Spain,Bulgaria,0.19
+Spain,Czech Republic,0.27
+Spain,Denmark,1.85
+Spain,Germany,15.24
+Spain,Estonia,0.03
+Spain,Ireland,1.75
+Spain,Greece,0.18
+Spain,Spain,22.65
+Spain,France,7.93
+Spain,Croatia,0.01
+Spain,Italy,7.69
+Spain,Cyprus,0
+Spain,Latvia,0.07
+Spain,Lithuania,0.08
+Spain,Luxembourg,0.18
+Spain,Hungary,0.28
+Spain,Malta,0.04
+Spain,Netherlands,4.12
+Spain,Austria,0.86
+Spain,Poland,0.98
+Spain,Portugal,2.31
+Spain,Romania,0.75
+Spain,Slovenia,0
+Spain,Slovakia,0.03
+Spain,Finland,1.44
+Spain,Sweden,2.59
+Spain,United Kingdom,18.89
+Spain,Iceland,0.08
+Spain,Norway,2.22
+Spain,Switzerland,2.71
+Spain,Turkey,0.96
+France,Belgium,1.88
+France,Bulgaria,0.14
+France,Czech Republic,0.83
+France,Denmark,1.26
+France,Germany,7.65
+France,Estonia,0.03
+France,Ireland,1.74
+France,Greece,0.64
+France,Spain,10.09
+France,France,33.4
+France,Croatia,0.16
+France,Italy,10.57
+France,Cyprus,0.04
+France,Latvia,0.17
+France,Lithuania,0.15
+France,Luxembourg,0.12
+France,Hungary,0.57
+France,Malta,0.19
+France,Netherlands,2.95
+France,Austria,1
+France,Poland,1.21
+France,Portugal,4.76
+France,Romania,0.74
+France,Slovenia,0.07
+France,Slovakia,0
+France,Finland,0.65
+France,Sweden,1.1
+France,United Kingdom,11.38
+France,Iceland,0.2
+France,Norway,0.57
+France,Switzerland,3.65
+France,Turkey,2.09
+Croatia,Belgium,2.69
+Croatia,Bulgaria,0
+Croatia,Czech Republic,0
+Croatia,Denmark,1.74
+Croatia,Germany,33.18
+Croatia,Estonia,0
+Croatia,Ireland,0.21
+Croatia,Greece,0
+Croatia,Spain,0.61
+Croatia,France,6.52
+Croatia,Croatia,18.28
+Croatia,Italy,2.92
+Croatia,Cyprus,0
+Croatia,Latvia,0
+Croatia,Lithuania,0
+Croatia,Luxembourg,0
+Croatia,Hungary,0.52
+Croatia,Malta,0.06
+Croatia,Netherlands,6.31
+Croatia,Austria,6.59
+Croatia,Poland,0.77
+Croatia,Portugal,0.08
+Croatia,Romania,0
+Croatia,Slovenia,0
+Croatia,Slovakia,0.06
+Croatia,Finland,0.04
+Croatia,Sweden,0.09
+Croatia,United Kingdom,9.51
+Croatia,Iceland,0
+Croatia,Norway,0.12
+Croatia,Switzerland,3.36
+Croatia,Turkey,6.32
+Italy,Belgium,3.32
+Italy,Bulgaria,0.36
+Italy,Czech Republic,0.92
+Italy,Denmark,0.91
+Italy,Germany,10.93
+Italy,Estonia,0.07
+Italy,Ireland,0.99
+Italy,Greece,1.45
+Italy,Spain,10.53
+Italy,France,10.63
+Italy,Croatia,0.07
+Italy,Italy,30
+Italy,Cyprus,0.08
+Italy,Latvia,0.19
+Italy,Lithuania,0.29
+Italy,Luxembourg,0.17
+Italy,Hungary,0.92
+Italy,Malta,0.79
+Italy,Netherlands,3.82
+Italy,Austria,1.03
+Italy,Poland,1.58
+Italy,Portugal,1.57
+Italy,Romania,2.62
+Italy,Slovenia,0
+Italy,Slovakia,0.19
+Italy,Finland,0.47
+Italy,Sweden,0.45
+Italy,United Kingdom,11.43
+Italy,Iceland,0.01
+Italy,Norway,0.16
+Italy,Switzerland,1.85
+Italy,Turkey,2.22
+Cyprus,Belgium,1.07
+Cyprus,Bulgaria,1.86
+Cyprus,Czech Republic,0
+Cyprus,Denmark,0.02
+Cyprus,Germany,3.34
+Cyprus,Estonia,0
+Cyprus,Ireland,0
+Cyprus,Greece,37.74
+Cyprus,Spain,0
+Cyprus,France,1.62
+Cyprus,Croatia,0
+Cyprus,Italy,2.37
+Cyprus,Cyprus,0
+Cyprus,Latvia,0.31
+Cyprus,Lithuania,1.07
+Cyprus,Luxembourg,0
+Cyprus,Hungary,1.1
+Cyprus,Malta,2.73
+Cyprus,Netherlands,0.16
+Cyprus,Austria,4.65
+Cyprus,Poland,1.67
+Cyprus,Portugal,0
+Cyprus,Romania,3.08
+Cyprus,Slovenia,0
+Cyprus,Slovakia,0
+Cyprus,Finland,0.03
+Cyprus,Sweden,0.96
+Cyprus,United Kingdom,34.67
+Cyprus,Iceland,0
+Cyprus,Norway,0.74
+Cyprus,Switzerland,0.78
+Cyprus,Turkey,0
+Latvia,Belgium,4.31
+Latvia,Bulgaria,0
+Latvia,Czech Republic,0.78
+Latvia,Denmark,4.12
+Latvia,Germany,18.46
+Latvia,Estonia,4.25
+Latvia,Ireland,3.8
+Latvia,Greece,0.02
+Latvia,Spain,2.11
+Latvia,France,3.96
+Latvia,Croatia,0
+Latvia,Italy,4.54
+Latvia,Cyprus,0.25
+Latvia,Latvia,0.01
+Latvia,Lithuania,4.09
+Latvia,Luxembourg,0
+Latvia,Hungary,0.2
+Latvia,Malta,0.02
+Latvia,Netherlands,4.06
+Latvia,Austria,2.48
+Latvia,Poland,2.24
+Latvia,Portugal,0
+Latvia,Romania,0.07
+Latvia,Slovenia,0
+Latvia,Slovakia,0.19
+Latvia,Finland,6.11
+Latvia,Sweden,3.77
+Latvia,United Kingdom,18.5
+Latvia,Iceland,0
+Latvia,Norway,8.31
+Latvia,Switzerland,1.11
+Latvia,Turkey,2.25
+Lithuania,Belgium,3.43
+Lithuania,Bulgaria,0
+Lithuania,Czech Republic,0.05
+Lithuania,Denmark,6.46
+Lithuania,Germany,11.3
+Lithuania,Estonia,1.88
+Lithuania,Ireland,5.43
+Lithuania,Greece,0.03
+Lithuania,Spain,3.21
+Lithuania,France,4.32
+Lithuania,Croatia,0
+Lithuania,Italy,8.16
+Lithuania,Cyprus,1.03
+Lithuania,Latvia,4.83
+Lithuania,Lithuania,0.02
+Lithuania,Luxembourg,0
+Lithuania,Hungary,0
+Lithuania,Malta,0.04
+Lithuania,Netherlands,2.97
+Lithuania,Austria,1.83
+Lithuania,Poland,3.3
+Lithuania,Portugal,0.02
+Lithuania,Romania,0
+Lithuania,Slovenia,0
+Lithuania,Slovakia,0
+Lithuania,Finland,2.29
+Lithuania,Sweden,1.77
+Lithuania,United Kingdom,25.07
+Lithuania,Iceland,0.02
+Lithuania,Norway,10.11
+Lithuania,Switzerland,0.22
+Lithuania,Turkey,2.21
+Luxembourg,Belgium,0.06
+Luxembourg,Bulgaria,0
+Luxembourg,Czech Republic,0
+Luxembourg,Denmark,3.38
+Luxembourg,Germany,17.13
+Luxembourg,Estonia,0
+Luxembourg,Ireland,0.85
+Luxembourg,Greece,0
+Luxembourg,Spain,9.85
+Luxembourg,France,5.17
+Luxembourg,Croatia,0
+Luxembourg,Italy,7.69
+Luxembourg,Cyprus,0
+Luxembourg,Latvia,0
+Luxembourg,Lithuania,0
+Luxembourg,Luxembourg,0.04
+Luxembourg,Hungary,0
+Luxembourg,Malta,0
+Luxembourg,Netherlands,6.48
+Luxembourg,Austria,3.97
+Luxembourg,Poland,0
+Luxembourg,Portugal,13.19
+Luxembourg,Romania,0
+Luxembourg,Slovenia,0
+Luxembourg,Slovakia,0.01
+Luxembourg,Finland,0.23
+Luxembourg,Sweden,0.73
+Luxembourg,United Kingdom,18.74
+Luxembourg,Iceland,0
+Luxembourg,Norway,0
+Luxembourg,Switzerland,9.2
+Luxembourg,Turkey,3.27
+Hungary,Belgium,6.36
+Hungary,Bulgaria,0.01
+Hungary,Czech Republic,0.54
+Hungary,Denmark,1.29
+Hungary,Germany,16.81
+Hungary,Estonia,0
+Hungary,Ireland,2.75
+Hungary,Greece,0.98
+Hungary,Spain,4.44
+Hungary,France,6.55
+Hungary,Croatia,0.14
+Hungary,Italy,10.74
+Hungary,Cyprus,0.43
+Hungary,Latvia,0.1
+Hungary,Lithuania,0
+Hungary,Luxembourg,0
+Hungary,Hungary,0
+Hungary,Malta,0.5
+Hungary,Netherlands,6.37
+Hungary,Austria,1.2
+Hungary,Poland,2.27
+Hungary,Portugal,0.63
+Hungary,Romania,1.11
+Hungary,Slovenia,0
+Hungary,Slovakia,0
+Hungary,Finland,1.96
+Hungary,Sweden,3.38
+Hungary,United Kingdom,20.77
+Hungary,Iceland,0
+Hungary,Norway,1.62
+Hungary,Switzerland,4.67
+Hungary,Turkey,4.38
+Malta,Belgium,2.28
+Malta,Bulgaria,0.75
+Malta,Czech Republic,0
+Malta,Denmark,0.64
+Malta,Germany,13.96
+Malta,Estonia,0
+Malta,Ireland,1.82
+Malta,Greece,0.85
+Malta,Spain,1.54
+Malta,France,5.46
+Malta,Croatia,0.04
+Malta,Italy,23.29
+Malta,Cyprus,2.78
+Malta,Latvia,0.02
+Malta,Lithuania,0.04
+Malta,Luxembourg,0
+Malta,Hungary,1.26
+Malta,Malta,0
+Malta,Netherlands,2.27
+Malta,Austria,2.24
+Malta,Poland,1.21
+Malta,Portugal,0
+Malta,Romania,0.63
+Malta,Slovenia,0.05
+Malta,Slovakia,0
+Malta,Finland,0
+Malta,Sweden,0.72
+Malta,United Kingdom,33.17
+Malta,Iceland,0
+Malta,Norway,0
+Malta,Switzerland,1.9
+Malta,Turkey,3.07
+Netherlands,Belgium,0.67
+Netherlands,Bulgaria,0.4
+Netherlands,Czech Republic,1.25
+Netherlands,Denmark,3.62
+Netherlands,Germany,9.46
+Netherlands,Estonia,0.21
+Netherlands,Ireland,2.1
+Netherlands,Greece,0.6
+Netherlands,Spain,12.78
+Netherlands,France,6.67
+Netherlands,Croatia,0.35
+Netherlands,Italy,8.77
+Netherlands,Cyprus,0.01
+Netherlands,Latvia,0.39
+Netherlands,Lithuania,0.24
+Netherlands,Luxembourg,0.34
+Netherlands,Hungary,1.37
+Netherlands,Malta,0.17
+Netherlands,Netherlands,0.04
+Netherlands,Austria,3.19
+Netherlands,Poland,2.07
+Netherlands,Portugal,3.21
+Netherlands,Romania,1.03
+Netherlands,Slovenia,0.04
+Netherlands,Slovakia,0
+Netherlands,Finland,1.42
+Netherlands,Sweden,2.81
+Netherlands,United Kingdom,23.74
+Netherlands,Iceland,0.33
+Netherlands,Norway,4.27
+Netherlands,Switzerland,4.74
+Netherlands,Turkey,3.7
+Austria,Belgium,1.87
+Austria,Bulgaria,1.67
+Austria,Czech Republic,0.69
+Austria,Denmark,2.58
+Austria,Germany,33.02
+Austria,Estonia,0.06
+Austria,Ireland,0.85
+Austria,Greece,1
+Austria,Spain,5.35
+Austria,France,4.3
+Austria,Croatia,0.69
+Austria,Italy,4.54
+Austria,Cyprus,0.7
+Austria,Latvia,0.46
+Austria,Lithuania,0.28
+Austria,Luxembourg,0.4
+Austria,Hungary,0.45
+Austria,Malta,0.33
+Austria,Netherlands,6.1
+Austria,Austria,2.91
+Austria,Poland,1.17
+Austria,Portugal,0.65
+Austria,Romania,2.03
+Austria,Slovenia,0.29
+Austria,Slovakia,0.27
+Austria,Finland,1
+Austria,Sweden,2.16
+Austria,United Kingdom,12.34
+Austria,Iceland,0.08
+Austria,Norway,0.82
+Austria,Switzerland,6.47
+Austria,Turkey,4.46
+Poland,Belgium,2.99
+Poland,Bulgaria,0.25
+Poland,Czech Republic,0.76
+Poland,Denmark,2.29
+Poland,Germany,15.36
+Poland,Estonia,0.14
+Poland,Ireland,4.6
+Poland,Greece,0.28
+Poland,Spain,5.53
+Poland,France,5.15
+Poland,Croatia,0.08
+Poland,Italy,6.56
+Poland,Cyprus,0.24
+Poland,Latvia,0.38
+Poland,Lithuania,0.48
+Poland,Luxembourg,0
+Poland,Hungary,0.81
+Poland,Malta,0.17
+Poland,Netherlands,3.64
+Poland,Austria,1.11
+Poland,Poland,7
+Poland,Portugal,0.33
+Poland,Romania,0.46
+Poland,Slovenia,0.06
+Poland,Slovakia,0
+Poland,Finland,0.81
+Poland,Sweden,3.3
+Poland,United Kingdom,27.48
+Poland,Iceland,0.02
+Poland,Norway,7.42
+Poland,Switzerland,1.38
+Poland,Turkey,0.92
+Portugal,Belgium,4.05
+Portugal,Bulgaria,0
+Portugal,Czech Republic,0.3
+Portugal,Denmark,1.03
+Portugal,Germany,12.49
+Portugal,Estonia,0.02
+Portugal,Ireland,1.37
+Portugal,Greece,0
+Portugal,Spain,12.01
+Portugal,France,18.75
+Portugal,Croatia,0.05
+Portugal,Italy,5.63
+Portugal,Cyprus,0
+Portugal,Latvia,0
+Portugal,Lithuania,0
+Portugal,Luxembourg,1.11
+Portugal,Hungary,0.18
+Portugal,Malta,0
+Portugal,Netherlands,5.17
+Portugal,Austria,0.55
+Portugal,Poland,0.29
+Portugal,Portugal,11.08
+Portugal,Romania,0.13
+Portugal,Slovenia,0
+Portugal,Slovakia,0
+Portugal,Finland,0.49
+Portugal,Sweden,0.7
+Portugal,United Kingdom,17.39
+Portugal,Iceland,0
+Portugal,Norway,0.57
+Portugal,Switzerland,6.01
+Portugal,Turkey,0.61
+Romania,Belgium,4.54
+Romania,Bulgaria,0.63
+Romania,Czech Republic,0.66
+Romania,Denmark,0.16
+Romania,Germany,16.13
+Romania,Estonia,0
+Romania,Ireland,1.19
+Romania,Greece,1.35
+Romania,Spain,8.84
+Romania,France,6.69
+Romania,Croatia,0
+Romania,Italy,21.75
+Romania,Cyprus,0.93
+Romania,Latvia,0.02
+Romania,Lithuania,0
+Romania,Luxembourg,0
+Romania,Hungary,0.84
+Romania,Malta,0.19
+Romania,Netherlands,3.95
+Romania,Austria,4.07
+Romania,Poland,0.99
+Romania,Portugal,0.32
+Romania,Romania,5.49
+Romania,Slovenia,0
+Romania,Slovakia,0
+Romania,Finland,0
+Romania,Sweden,0.84
+Romania,United Kingdom,13.75
+Romania,Iceland,0
+Romania,Norway,0.34
+Romania,Switzerland,1.86
+Romania,Turkey,4.45
+Slovenia,Belgium,11.95
+Slovenia,Bulgaria,0
+Slovenia,Czech Republic,1.18
+Slovenia,Denmark,1.32
+Slovenia,Germany,27.42
+Slovenia,Estonia,0
+Slovenia,Ireland,0
+Slovenia,Greece,0
+Slovenia,Spain,0
+Slovenia,France,5.53
+Slovenia,Croatia,0
+Slovenia,Italy,0.12
+Slovenia,Cyprus,0
+Slovenia,Latvia,0
+Slovenia,Lithuania,0
+Slovenia,Luxembourg,0
+Slovenia,Hungary,0
+Slovenia,Malta,0.19
+Slovenia,Netherlands,2.06
+Slovenia,Austria,7.63
+Slovenia,Poland,1.49
+Slovenia,Portugal,0
+Slovenia,Romania,0
+Slovenia,Slovenia,0
+Slovenia,Slovakia,0
+Slovenia,Finland,0
+Slovenia,Sweden,0
+Slovenia,United Kingdom,15.54
+Slovenia,Iceland,0
+Slovenia,Norway,0.36
+Slovenia,Switzerland,10.27
+Slovenia,Turkey,14.96
+Slovakia,Belgium,6.2
+Slovakia,Bulgaria,0
+Slovakia,Czech Republic,4.71
+Slovakia,Denmark,0
+Slovakia,Germany,0.09
+Slovakia,Estonia,0
+Slovakia,Ireland,11.61
+Slovakia,Greece,2.01
+Slovakia,Spain,3.6
+Slovakia,France,0.21
+Slovakia,Croatia,0.12
+Slovakia,Italy,14.56
+Slovakia,Cyprus,0
+Slovakia,Latvia,0.02
+Slovakia,Lithuania,0
+Slovakia,Luxembourg,0
+Slovakia,Hungary,0.04
+Slovakia,Malta,0
+Slovakia,Netherlands,0
+Slovakia,Austria,4.8
+Slovakia,Poland,0.01
+Slovakia,Portugal,0
+Slovakia,Romania,0
+Slovakia,Slovenia,0.01
+Slovakia,Slovakia,2.43
+Slovakia,Finland,0.04
+Slovakia,Sweden,0.11
+Slovakia,United Kingdom,48.65
+Slovakia,Iceland,0
+Slovakia,Norway,0.02
+Slovakia,Switzerland,0.29
+Slovakia,Turkey,0.47
+Finland,Belgium,1.38
+Finland,Bulgaria,0
+Finland,Czech Republic,1.26
+Finland,Denmark,4.99
+Finland,Germany,12.01
+Finland,Estonia,1.7
+Finland,Ireland,0.01
+Finland,Greece,0.01
+Finland,Spain,12.23
+Finland,France,4
+Finland,Croatia,0.01
+Finland,Italy,2.9
+Finland,Cyprus,0.01
+Finland,Latvia,1.58
+Finland,Lithuania,0.5
+Finland,Luxembourg,0.03
+Finland,Hungary,1.04
+Finland,Malta,0
+Finland,Netherlands,3.81
+Finland,Austria,1.41
+Finland,Poland,1.21
+Finland,Portugal,0.81
+Finland,Romania,0
+Finland,Slovenia,0
+Finland,Slovakia,0
+Finland,Finland,22.27
+Finland,Sweden,11.5
+Finland,United Kingdom,7.64
+Finland,Iceland,0.36
+Finland,Norway,2.72
+Finland,Switzerland,2.45
+Finland,Turkey,2.16
+Sweden,Belgium,1.54
+Sweden,Bulgaria,0.13
+Sweden,Czech Republic,0.39
+Sweden,Denmark,6.36
+Sweden,Germany,10.17
+Sweden,Estonia,0.37
+Sweden,Ireland,0.18
+Sweden,Greece,0.24
+Sweden,Spain,10.76
+Sweden,France,3.47
+Sweden,Croatia,0.01
+Sweden,Italy,1.41
+Sweden,Cyprus,0.1
+Sweden,Latvia,0.5
+Sweden,Lithuania,0.2
+Sweden,Luxembourg,0.05
+Sweden,Hungary,0.93
+Sweden,Malta,0.08
+Sweden,Netherlands,3.47
+Sweden,Austria,1.57
+Sweden,Poland,2.72
+Sweden,Portugal,0.66
+Sweden,Romania,0.3
+Sweden,Slovenia,0
+Sweden,Slovakia,0
+Sweden,Finland,5.89
+Sweden,Sweden,28.22
+Sweden,United Kingdom,9
+Sweden,Iceland,0.41
+Sweden,Norway,5.67
+Sweden,Switzerland,2.41
+Sweden,Turkey,2.77
+United Kingdom,Belgium,1.09
+United Kingdom,Bulgaria,0.62
+United Kingdom,Czech Republic,1.06
+United Kingdom,Denmark,2.05
+United Kingdom,Germany,8.59
+United Kingdom,Estonia,0.09
+United Kingdom,Ireland,7.69
+United Kingdom,Greece,0.93
+United Kingdom,Spain,15.72
+United Kingdom,France,7.38
+United Kingdom,Croatia,0.14
+United Kingdom,Italy,6.92
+United Kingdom,Cyprus,0.72
+United Kingdom,Latvia,0.47
+United Kingdom,Lithuania,0.53
+United Kingdom,Luxembourg,0.26
+United Kingdom,Hungary,1.14
+United Kingdom,Malta,0.68
+United Kingdom,Netherlands,6.26
+United Kingdom,Austria,1.71
+United Kingdom,Poland,3.96
+United Kingdom,Portugal,2.85
+United Kingdom,Romania,1
+United Kingdom,Slovenia,0.09
+United Kingdom,Slovakia,0.43
+United Kingdom,Finland,0.75
+United Kingdom,Sweden,1.71
+United Kingdom,United Kingdom,15.58
+United Kingdom,Iceland,0.75
+United Kingdom,Norway,1.93
+United Kingdom,Switzerland,5.32
+United Kingdom,Turkey,1.6

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Unity within Europe?</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  <style type="text/css">
+    small{font-size:13px;line-height:0.6em;color:#999;}
+    .iframe{width: 720px;}
+    .iframe iframe{}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 60px;          
+    height: 28px;         
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: darkblue;
+}
+
+.bar:hover {
+  fill: lightblue ;
+}
+
+.bar2 {
+  fill: orange;
+}
+
+.bar2:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+  </style>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js" type="text/javascript"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"/>
+    <link rel="stylesheet" type="text/css" href="sequences.css"/>
+  </head>
+
+<body onload="arcDiagram(); arcDiagram2(); arcDiagram3(); arcDiagram4()">
+<header>
+  EEUR 250: "Europe from an Idea to the Union," Final Project 2016
+</header>
+<h1>Unity within Europe: as seen through travel, tourism, and students</h1>
+
+<h2>Travel: Where do Europeans fly?</h2>
+<div id="vizcontainer">
+  <p><b>Scroll over a country node</b> to explore what nations its citizens travel to by air. The thickness and color of each edge represents the <b>percentage of passengers from Country X that travel to Country Y</b> (relative to all passengers to European destinations from Country X). Data obtained from <a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Air_passenger_transport_-_monthly_statistics">Eurostat</a> represents international intra-EU air passenger transport, as reported by EU and EU partner countries for Q1 of 2015.</p>
+<svg id="svg1" style="width:1050px;height:600px;border:1px lightgray solid;" />
+<h2>Tourism: Where do Europeans stay?</h2>
+<p>The graphic below shows the distribution of trips between members of different European nations. The thickness and color of each edge represents the <b>number of trips with at least 1 night stay taken by members from Country X to Country Y</b>. Data obtained from <a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Tourism_statistics">Eurostat</a> for 2014. Trip data from Sweden, UK, and Norway not available.</p>
+<svg id="svg3" style="width:1050px;height:650px;border:1px lightgray solid;" />
+<h2>Student Mobility: Where do students go to study abroad?</h2>
+<p>The graphic below shows the distribution of students between members of different European nations with institutions belonging to the Erasmus Student Mobility program. The thickness and color of each edge represents the <b>number of students from Country A that studied abroad in Countries X,Y,Z in 2013-2014</b>. Data obtained from <a href="http://www.statisticsforall.eu/maps-erasmus-students.php">StatisticsForAll</a>.</p>
+<svg id="svg4" style="width:1050px;height:600px;border:1px lightgray solid;" />
+<h2>Marriages: Who marries outside of their own nationality?</h2>
+<p>The graphic below shows the percentage of European marriages between two people of different European nationalities and same nationality (Different nationality marriages = top, same nationality marriages = bottom; Note: the scales for top and bottom graph differ to better show differences between European nations). Each bar represents the nationality of the bride. Luxembourg and Slovakia appear to have the highest percentage of international European marriages outside of their own nationality. Data, for marriages in the year 2013, was obtained from <a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Marriage_and_divorce_statistics">Eurostat</a>.</p>
+<div id="holder" style="width:1050px;height:310px;border:1px lightgray solid;">
+  <svg id="svg5"/>
+</div>
+</div>
+<script>
+//If you get an error that says "undefined object d.source.x" (and edges show up but nodes don't) this means that there is something wrong with the data files. Must be some mismatch between the node and edgelist files! Start there, you can solve it!
+// Define the div for the tooltip
+/*var div = d3.select("body").append("div") 
+    .attr("class", "tooltip")       
+    .style("opacity", 0);*/
+
+//To show "Of all passengers from Country X travelling within Europe, Y% are travelling to Country Z"
+  function arcDiagram() {
+    queue()
+    .defer(d3.csv, "eu_nodelist.csv")
+    .defer(d3.csv, "eu_edgelist_relative_to_own.csv")
+    .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
+    function createArcDiagram(nodes,edges) {
+      
+      expEdges = edges;
+      expNodes = nodes;
+      nodeColor = "darkblue";
+      
+      var nodeHash = {};
+      for (i in nodes) {
+        nodeHash[nodes[i].id] = nodes[i];
+        nodes[i].x = parseInt(i) * 32; //x-coordinate of nodes
+        nodes[i].y = parseInt(i) * 10; //y-coordinate of nodes
+      }
+      for (i in edges) {
+        edges[i].weight = parseInt(edges[i].weight);
+        edges[i].source = nodeHash[edges[i].source];
+        edges[i].target = nodeHash[edges[i].target];
+      }
+      
+      opacityScale = d3.scale.linear().domain(d3.extent(edges, function (d) {return d.weight})).range([0,1])
+      widthScale = d3.scale.linear().domain(d3.extent(edges, function (d) {return d.weight})).range([1,4])
+      colorScale = d3.scale.linear().domain(d3.extent(edges, function (d) {return d.weight}))
+         .range(["lightgrey", "#850101"]); //the scale from grey to dark red
+
+      var arcG = d3.select("#svg1").append("g").attr("id", "arcG").attr("transform", "translate(20,320)");
+
+      arcG.selectAll("path")
+      .data(edges)
+      .enter()
+      .append("path")
+      .style("stroke", function(d) {return colorScale(d.weight)})
+      .style("stroke-width", function(d) {return widthScale(d.weight)})
+      .style("opacity", function(d) {return opacityScale(d.weight)})
+      .attr("d", shapedEdge)
+     // .on("mouseover", edgeOver)
+      
+      var circlesG = arcG.selectAll("circle")
+      .data(nodes)
+      .enter()
+      .append("g");
+
+      var circles = circlesG.append("circle")
+      .attr("r", 12)
+      .style("fill", nodeColor)
+      .style("stroke", "darkgrey")
+      .style("stroke-width", "1px")
+      .attr("cx", function (d) {return d.x}) //x-coordinate of the nodes
+      .on("mouseover", nodeOver)
+      .on("mouseout", nodeReset);
+
+      circlesG.append("text")
+      .style("fill","white")
+      .attr("x", function (d) {return d.x - 6}) //x-coordinate of the nodes
+      .attr("y", 3) //x-coordinate of the nodes
+      .style("font-family","sans-serif")
+      .style("font-size","10px")
+      .text(function(d) {return d.abbrev});
+
+      function shapedEdge(d) {
+        var draw = d3.svg.line().interpolate("cardinal");
+        var midX = (d.source.x + d.target.x) / 2;
+        var midY = d.source.y - d.target.y;
+        return draw([[d.source.x,0],[midX,midY],[d.target.x,0],[midX,midY],[d.source.x,0]])
+      }
+      
+      function nodeOver(d,i) {
+        d3.select("#svg1").selectAll("circle").style("fill", function (p) {return p == d ? "#850101" : nodeColor}).attr("r", function (p) {return p == d ? 15 : 12})
+        //var result = (condition)?(value1):(value2); If condition true, operator returns value1; otherwise, value2
+        d3.select("#svg1").selectAll("path").style("stroke", function (p) {return p.source == d ? "#850101" : "grey"})
+          .style("opacity", function (p) {return p.source == d ? (1.5*opacityScale(p.weight)) : (0.25*opacityScale(p.weight))})
+      }
+      
+      function nodeReset(d,i) {
+        d3.select("#svg1").selectAll("circle").style("fill", nodeColor).attr("r",12)
+        d3.select("#svg1").selectAll("path").style("stroke", function(d) {return colorScale(d.weight)})
+        .style("opacity", function(d) {return opacityScale(d.weight)})
+      }
+
+      function edgeOver(d) {
+        d3.select("#svg1").selectAll("path").style("fill", function(p) {return p == d ? "green" : "lightgrey"})
+        d3.select("#svg1").selectAll("circle").style("fill", function(p) {return p == d.source ? "red" : p == d.target ? "green" : nodeColor})}
+      }
+  }
+
+//to show "of all EU passengers flying within Europe, X% are from Country Y"
+  function arcDiagram2() {
+    queue()
+    .defer(d3.csv, "eu_nodelist.csv")
+    .defer(d3.csv, "eu_edgelist_relative.csv")
+    .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
+    function createArcDiagram(nodes,edges) {
+      
+      expEdges = edges;
+      expNodes = nodes;
+      nodeColor = "darkblue";
+      
+      var nodeHash = {};
+      for (i in nodes) {
+        nodeHash[nodes[i].id] = nodes[i];
+        nodes[i].x = parseInt(i) * 32; //x-coordinate of nodes
+        nodes[i].y = parseInt(i) * 10; //y-coordinate of nodes
+      }
+      for (i in edges) {
+        edges[i].weight = parseInt(edges[i].weight);
+        edges[i].source = nodeHash[edges[i].source];
+        edges[i].target = nodeHash[edges[i].target];
+      }
+      
+      opacityScale2 = d3.scale.linear().domain(d3.extent(edges, function (d) {return d.weight})).range([0,1])
+      widthScale2 = d3.scale.linear().domain(d3.extent(edges, function (d) {return d.weight})).range([1,4])
+      colorScale2 = d3.scale.linear().domain(d3.extent(edges, function (d) {return d.weight}))
+         .range(["lightgrey", "#850101"]); //the scale from grey to dark red
+
+      var arcG2 = d3.select("#svg2").append("g").attr("id", "arcG2").attr("transform", "translate(20,320)");
+
+      arcG2.selectAll("path")
+      .data(edges)
+      .enter()
+      .append("path")
+      .style("stroke", function(d) {return colorScale2(d.weight)})
+      .style("stroke-width", function(d) {return widthScale2(d.weight)})
+      .style("opacity", function(d) {return opacityScale2(d.weight)})
+      .attr("d", shapedEdge2)
+     // .on("mouseover", edgeOver)
+      
+      var circlesG2 = arcG2.selectAll("circle")
+      .data(nodes)
+      .enter()
+      .append("g");
+
+      var circles2 = circlesG2.append("circle")
+      .attr("r", 12)
+      .style("fill", nodeColor)
+      .style("stroke", "darkgrey")
+      .style("stroke-width", "1px")
+      .attr("cx", function (d) {return d.x}) //x-coordinate of the nodes
+      .on("mouseover", nodeOver2)
+      .on("mouseout", nodeReset2);
+
+      circlesG2.append("text")
+      .style("fill","white")
+      .attr("x", function (d) {return d.x - 6}) //x-coordinate of the nodes
+      .attr("y", 3) //x-coordinate of the nodes
+      .style("font-family","sans-serif")
+      .style("font-size","10px")
+      .text(function(d) {return d.abbrev});
+
+      function shapedEdge2(d,i) {
+        var draw = d3.svg.line().interpolate("cardinal");
+        var midX = (d.source.x + d.target.x) / 2;
+        var midY = d.source.y - d.target.y;
+        return draw([[d.source.x,0],[midX,midY],[d.target.x,0],[midX,midY],[d.source.x,0]])
+      }
+      
+      function nodeOver2(d,i) {
+        d3.select("#svg2").selectAll("circle").style("fill", function (p) {return p == d ? "#850101" : nodeColor}).attr("r", function (p) {return p == d ? 15 : 12})
+        //var result = (condition)?(value1):(value2); If condition true, operator returns value1; otherwise, value2
+        d3.select("#svg2").selectAll("path").style("stroke", function (p) {return p.source == d ? "#850101" : "grey"})
+          .style("opacity", function (p) {return p.source == d ? (1.5*opacityScale2(p.weight)) : (0.25*opacityScale2(p.weight))})
+      }
+      
+      function nodeReset2(d,i) {
+        d3.select("#svg2").selectAll("circle").style("fill", nodeColor).attr("r",12)
+        d3.select("#svg2").selectAll("path").style("stroke", function(d) {return colorScale2(d.weight)})
+        .style("opacity", function(d) {return opacityScale2(d.weight)})
+      }
+
+      function edgeOver2(d) {
+        d3.select("#svg2").selectAll("path").style("fill", function(p) {return p == d ? "green" : "lightgrey"})
+        d3.select("#svg2").selectAll("circle").style("fill", function(p) {return p == d.source ? "red" : p == d.target ? "green" : nodeColor})}
+      }
+  }
+
+//To show: absolute number of trips (with at least 1 night stay) from country X to country Y
+  function arcDiagram3() {
+    queue()
+    .defer(d3.csv, "eu_nodelist_other.csv")
+    .defer(d3.csv, "tourism_edgelist.csv")
+    .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
+    function createArcDiagram(nodes,edges) {
+      
+      expEdges = edges;
+      expNodes = nodes;
+      nodeColor = "darkblue";
+      
+      var nodeHash = {};
+      for (i in nodes) {
+        nodeHash[nodes[i].id] = nodes[i];
+        nodes[i].x = parseInt(i) * 30; //x-coordinate of nodes
+        nodes[i].y = parseInt(i) * 10; //y-coordinate of nodes
+      }
+      for (i in edges) {
+        edges[i].weight = parseInt(edges[i].weight);
+        edges[i].source = nodeHash[edges[i].source];
+        edges[i].target = nodeHash[edges[i].target];
+      }
+      
+      var min = 4115;
+      var max = 10574871
+     
+      opacityScale3 = d3.scale.log().base(15).domain(d3.extent(edges, function (d) {return d.weight})).range([0,1])
+      //widthScale3 = d3.scale.log().base(5).domain(d3.extent(edges, function (d) {return d.weight})).range([1,5])
+      widthScale3 = d3.scale.threshold().domain([min*10,min*100,max/10]).range([0.8,1,3,5])
+      //colorScale3 = d3.scale.log().base(5).domain(d3.extent(edges, function (d) {return d.weight}))
+         //.range(["lightgrey", "#006400"]); //the scale from grey to dark green
+      colorScale3 = d3.scale.threshold().domain([min*10,min*100,max/10]).range(["#D3D3D3","#8DAF8D", "#6A9D6A", "#006600"]); //the scale from grey to dark green
+
+      var arcG3 = d3.select("#svg3").append("g").attr("id", "arcG3").attr("transform", "translate(20,350)");
+
+      arcG3.selectAll("path")
+      .data(edges)
+      .enter()
+      .append("path")
+      .style("stroke", function(d) {return colorScale3(d.weight)})
+      .style("stroke-width", function(d) {return widthScale3(d.weight)})
+      .style("opacity", function(d) {return opacityScale3(d.weight)})
+      .attr("d", shapedEdge3)
+     // .on("mouseover", edgeOver)
+      
+      var circlesG3 = arcG3.selectAll("circle")
+      .data(nodes)
+      .enter()
+      .append("g");
+
+      var circles3 = circlesG3.append("circle")
+      .attr("r", 12)
+      .style("fill", nodeColor)
+      .style("stroke", "darkgrey")
+      .style("stroke-width", "1px")
+      .attr("cx", function (d) {return d.x}) //x-coordinate of the nodes
+      .on("mouseover", nodeOver3)
+      .on("mouseout", nodeReset3);
+
+      circlesG3.append("text")
+      .style("fill","white")
+      .attr("x", function (d) {return d.x - 6}) //x-coordinate of the nodes
+      .attr("y", 3) //x-coordinate of the nodes
+      .style("font-family","sans-serif")
+      .style("font-size","10px")
+      .text(function(d) {return d.abbrev});
+
+      function shapedEdge3(d,i) {
+        var draw = d3.svg.line().interpolate("cardinal");
+        var midX = (d.source.x + d.target.x) / 2;
+        var midY = d.source.y - d.target.y;
+        return draw([[d.source.x,0],[midX,midY],[d.target.x,0],[midX,midY],[d.source.x,0]])
+      }
+      
+      function nodeOver3(d,i) {
+        d3.select("#svg3").selectAll("circle").style("fill", function (p) {return p == d ? "#006600" : nodeColor}).attr("r", function (p) {return p == d ? 15 : 12})
+        d3.select("#svg3").selectAll("path").style("stroke", function (p) {return p.source == d ? colorScale3 : "lightgrey"})
+          .style("opacity", function (p) {return p.source == d ? (1.5*opacityScale3(p.weight)) : (0.15*opacityScale3(p.weight)) })
+      }
+      
+      function nodeReset3(d,i) {
+        d3.select("#svg3").selectAll("circle").style("fill", nodeColor).attr("r",12)
+        d3.select("#svg3").selectAll("path").style("stroke", function(d) {return colorScale3(d.weight)})
+        .style("opacity", function(d) {return opacityScale3(d.weight)})
+      }
+
+      function edgeOver3(d) {
+        d3.select("#svg3").selectAll("path").style("fill", function(p) {return p == d ? "#006600" : "lightgrey"})
+        d3.select("#svg3").selectAll("circle").style("fill", function(p) {return p == d.source ? "red" : p == d.target ? "green" : nodeColor})}
+      }
+  }
+
+  //To show: absolute number of trips (with at least 1 night stay) from country X to country Y
+  function arcDiagram4() {
+    queue()
+    .defer(d3.csv, "erasmus_nodelist.csv")
+    .defer(d3.csv, "erasmus_edges.csv")
+    .await(function(error, file1, file2) { createArcDiagram(file1, file2); });
+    function createArcDiagram(nodes,edges) {
+      
+      expEdges = edges;
+      expNodes = nodes;
+      nodeColor = "darkblue";
+      
+      var nodeHash = {};
+      for (i in nodes) {
+        nodeHash[nodes[i].id] = nodes[i];
+        nodes[i].x = parseInt(i) * 30; //x-coordinate of nodes
+        nodes[i].y = parseInt(i) * 9; //y-coordinate of nodes
+      }
+      for (i in edges) {
+        edges[i].weight = parseInt(edges[i].weight);
+        edges[i].source = nodeHash[edges[i].source];
+        edges[i].target = nodeHash[edges[i].target];
+      }
+      
+      var min = 1;
+      var max = 7636;
+     
+      opacityScale4 = d3.scale.linear().domain([min,max]).range([0,1])
+      widthScale4 = d3.scale.linear().domain([min,max]).range([1,5])
+      colorScale4 = d3.scale.linear().domain([min,max]).range(["#EE7600", "#EE7600"]); //orange
+
+      var arcG4 = d3.select("#svg4").append("g").attr("id", "arcG4").attr("transform", "translate(20,300)");
+
+      arcG4.selectAll("path")
+      .data(edges)
+      .enter()
+      .append("path")
+      .style("stroke", function(d) {return colorScale4(d.weight)})
+      .style("stroke-width", function(d) {return widthScale4(d.weight)})
+      .style("opacity", function(d) {return opacityScale4(d.weight)})
+      .attr("d", shapedEdge4)
+     // .on("mouseover", edgeOver)
+      
+      var circlesG4 = arcG4.selectAll("circle")
+      .data(nodes)
+      .enter()
+      .append("g");
+
+      var circles4 = circlesG4.append("circle")
+      .attr("r", 12)
+      .style("fill", nodeColor)
+      .style("stroke", "darkgrey")
+      .style("stroke-width", "1px")
+      .attr("cx", function (d) {return d.x}) //x-coordinate of the nodes
+      .on("mouseover", nodeOver4)
+      .on("mouseout", nodeReset4);
+
+      circlesG4.append("text")
+      .style("fill","white")
+      .attr("x", function (d) {return d.x - 6}) //x-coordinate of the nodes
+      .attr("y", 3) //x-coordinate of the nodes
+      .style("font-family","sans-serif")
+      .style("font-size","10px")
+      .text(function(d) {return d.abbrev});
+
+      function shapedEdge4(d,i) {
+        var draw = d3.svg.line().interpolate("cardinal");
+        var midX = (d.source.x + d.target.x) / 2;
+        var midY = d.source.y - d.target.y;
+        return draw([[d.source.x,0],[midX,midY],[d.target.x,0],[midX,midY],[d.source.x,0]])
+      }
+      
+      function nodeOver4(d,i) {
+        d3.select("#svg4").selectAll("circle").style("fill", function (p) {return p == d ? "#c96400" : nodeColor}).attr("r", function (p) {return p == d ? 15 : 12})
+        d3.select("#svg4").selectAll("path").style("stroke", function (p) {return p.source == d ? colorScale4 : "lightgrey"})
+          .style("opacity", function (p) {return p.source == d ? (1.5*opacityScale4(p.weight)) : (0.5*opacityScale3(p.weight))})
+
+/*        div.transition()    
+                .duration(200)    
+                .style("opacity", .9);    
+            div .html(d.abbrev + "Total Students Abroad:" + d.total)  
+                .style("left", (d3.event.pageX) + "px")   
+                .style("top", (d3.event.pageY - 28) + "px");*/
+
+      }
+      
+      function nodeReset4(d,i) {
+        d3.select("#svg4").selectAll("circle").style("fill", nodeColor).attr("r",12)
+        d3.select("#svg4").selectAll("path").style("stroke", function(d) {return colorScale4(d.weight)})
+        .style("opacity", function(d) {return opacityScale4(d.weight)})
+
+       /* div.transition()    
+                .duration(500)    
+                .style("opacity", 0); */
+
+      }
+
+      function edgeOver4(d) {
+        d3.select("#svg4").selectAll("path").style("fill", function(p) {return p == d ? "green" : "lightgrey"})
+        d3.select("#svg4").selectAll("circle").style("fill", function(p) {return p == d.source ? "red" : p == d.target ? "green" : nodeColor})}
+      }
+  }
+</script>
+<script src="eu_marriages.js"></script>
+
+<footer>
+  <aside> Visualization created using <a href="http://d3js.org">D3.js</a>, <a href="http://opensource.org/licenses/BSD-3-Clause">Terms of use</a>.</aside>
+  Copyright Monica Wojciechowski, 2016.
+</footer>
+
+  </body>
+</html>

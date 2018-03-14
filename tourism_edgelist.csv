@@ -1,0 +1,462 @@
+source,target,weight
+Lithuania,Switzerland,4115
+Hungary,Cyprus,4723
+Lithuania,Hungary,5654
+Hungary,Norway,7165
+Hungary,Ireland,7344
+Hungary,Finland,7512
+Luxembourg,Hungary,7896
+Malta,Belgium,8301
+Malta,Netherlands,8313
+Luxembourg,Poland,8547
+Malta,Austria,8820
+Luxembourg,Croatia,9141
+Hungary,Portugal,9400
+Hungary,Slovenia,9976
+Luxembourg,Czech Republic,10699
+Hungary,Malta,11365
+Lithuania,Malta,11582
+Greece,Austria,11813
+Luxembourg,Ireland,12700
+Lithuania,Cyprus,12868
+Lithuania,Czech Republic,14468
+Lithuania,Croatia,14853
+Portugal,Ireland,15001
+Greece,Czech Republic,15028
+Lithuania,Belgium,15057
+Malta,Spain,15494
+Greece,Netherlands,15871
+Greece,Belgium,15873
+Hungary,Denmark,16139
+Greece,Switzerland,16177
+Luxembourg,Sweden,16227
+Estonia,Belgium,16934
+Lithuania,Netherlands,17020
+Cyprus,Other European,17172
+Portugal,Other European,17771
+Luxembourg,Denmark,18229
+Poland,Finland,18451
+Lithuania,Ukraine,18672
+Malta,Germany,18675
+Portugal,Belgium,18807
+Poland,Romania,18981
+Estonia,Austria,19072
+Malta,France,19379
+Lithuania,Bulgaria,19574
+Luxembourg,Turkey,19627
+Poland,Malta,20214
+Luxembourg,Greece,20339
+Slovenia,Turkey,20390
+Cyprus,Spain,20481
+Estonia,Greece,21486
+Greece,France,23015
+Lithuania,Austria,23108
+Ireland,Denmark,23471
+Hungary,Russia,23471
+Ireland,Other European,23473
+Cyprus,Italy,24719
+Cyprus,Bulgaria,24891
+Hungary,Sweden,25499
+Belgium,Other European,25984
+Cyprus,France,26184
+Lithuania,Finland,26300
+Greece,Bulgaria,26322
+Slovenia,United Kingdom,27159
+Estonia,Other European,27431
+Slovenia,Switzerland,27854
+Estonia,France,28222
+Belgium,Russia,29062
+Greece,Spain,29390
+Poland,Cyprus,29474
+Luxembourg,Luxembourg,30202
+Lithuania,France,31472
+Hungary,Bulgaria,31507
+Bulgaria,United Kingdom,31985
+Estonia,Norway,32177
+Belgium,Malta,32223
+Estonia,United Kingdom,32382
+Croatia,Poland,32487
+Slovenia,Czech Republic,33478
+Estonia,Poland,33661
+Greece,Cyprus,33916
+Cyprus,Romania,34423
+Ireland,Czech Republic,34653
+Slovenia,Spain,34653
+Portugal,Netherlands,35229
+Ireland,Malta,35717
+Bulgaria,Italy,36207
+Ireland,Switzerland,36600
+Lithuania,Spain,37666
+Cyprus,Germany,37675
+Bulgaria,Germany,38183
+Slovenia,Greece,38340
+Lithuania,Denmark,39388
+Lithuania,Greece,40234
+Portugal,Switzerland,40349
+Croatia,Turkey,40794
+Belgium,Romania,40954
+Estonia,Spain,41124
+Belgium,Hungary,41246
+Estonia,Italy,41554
+Bulgaria,Other European,41609
+Belgium,Bulgaria,41770
+Croatia,Switzerland,42654
+Romania,France,44246
+Croatia,Netherlands,44833
+Ireland,Greece,44949
+Estonia,Turkey,44973
+Belgium,Norway,46015
+Slovenia,Hungary,46182
+Lithuania,Sweden,46295
+Latvia,Poland,47700
+Ireland,Turkey,47926
+Slovenia,France,48159
+Ireland,Croatia,48348
+Austria,Denmark,49004
+Greece,Germany,49820
+Estonia,Lithuania,51199
+Spain,Norway,52821
+Croatia,United Kingdom,52831
+Hungary,Spain,53473
+Austria,Portugal,54693
+Greece,United Kingdom,55067
+Cyprus,Russia,55124
+Hungary,Poland,55953
+Lithuania,Ireland,56460
+Spain,Russia,56559
+Spain,Hungary,57310
+Poland,Switzerland,57567
+Lithuania,Italy,57590
+Luxembourg,Switzerland,58863
+Ireland,Austria,58951
+Latvia,Italy,59323
+Latvia,Turkey,59459
+Spain,Czech Republic,59700
+Belgium,Czech Republic,60514
+Belgium,Croatia,60517
+Belgium,Sweden,60555
+Ireland,Belgium,60576
+Luxembourg,Austria,60618
+Netherlands,Russia,60693
+Greece,Turkey,60911
+Croatia,Spain,61814
+Estonia,Germany,61821
+Latvia,Spain,61839
+Netherlands,Other European,61938
+Spain,Bulgaria,62574
+Belgium,Denmark,62746
+Austria,Ireland,63278
+Hungary,Switzerland,63394
+Spain,Croatia,64539
+Ireland,Poland,64970
+Lithuania,Turkey,66598
+Romania,Germany,67980
+Spain,Austria,68730
+Poland,Russia,69133
+Finland,Belgium,69776
+Portugal,Italy,70677
+Czech Republic,United Kingdom,70966
+Belgium,Ireland,71616
+Croatia,France,72095
+Poland,Portugal,72510
+Hungary,Netherlands,73595
+Lithuania,Estonia,74141
+Denmark,Croatia,74222
+France,Denmark,75271
+Spain,Sweden,75668
+Netherlands,Ireland,75692
+Luxembourg,Netherlands,75860
+Latvia,Other European,75868
+Greece,Italy,79335
+Romania,Spain,79634
+Luxembourg,Portugal,80831
+Spain,Poland,81936
+Finland,Portugal,82604
+Finland,Austria,82829
+Belgium,Poland,83113
+Ireland,Netherlands,84022
+Lithuania,Norway,84750
+Austria,Sweden,85523
+Romania,Austria,86065
+Latvia,Sweden,86209
+Finland,Switzerland,86706
+Hungary,United Kingdom,87180
+Switzerland,Czech Republic,88806
+Lithuania,Russia,88978
+Spain,Switzerland,89302
+Finland,Netherlands,89929
+Finland,Poland,90199
+Hungary,Belgium,90607
+Spain,Greece,90685
+Croatia,Hungary,91583
+Luxembourg,United Kingdom,92100
+Latvia,United Kingdom,92177
+Portugal,Germany,92275
+Malta,United Kingdom,94117
+Latvia,Germany,94904
+Latvia,Estonia,95076
+Croatia,Czech Republic,95636
+Poland,Denmark,96952
+Hungary,Greece,101727
+Belgium,Luxembourg,102060
+Hungary,Turkey,103158
+Austria,Romania,103946
+Finland,Hungary,104822
+Spain,Ireland,106157
+Romania,Hungary,107037
+Malta,Italy,107285
+Czech Republic,Bulgaria,112252
+Denmark,Poland,115462
+Netherlands,Poland,115995
+Austria,Slovakia,116097
+Luxembourg,Italy,116310
+Slovenia,Germany,116655
+Lithuania,Germany,117001
+Hungary,Ukraine,117870
+Switzerland,Croatia,119274
+Romania,Bulgaria,119464
+Portugal,United Kingdom,122835
+Netherlands,Norway,123449
+Poland,Belgium,124737
+Spain,Turkey,126926
+France,Russia,129779
+Hungary,France,133295
+Luxembourg,Spain,134767
+Netherlands,Hungary,135661
+Poland,Ukraine,137109
+France,Hungary,137756
+Estonia,Russia,137827
+Austria,Netherlands,137987
+Latvia,Russia,138027
+Netherlands,Denmark,138575
+France,Sweden,140172
+Lithuania,Poland,140191
+France,Luxembourg,141377
+Poland,Lithuania,141555
+Netherlands,Luxembourg,143467
+Austria,Belgium,146088
+Poland,Other European,149860
+France,Malta,152319
+Czech Republic,Poland,153278
+Netherlands,Czech Republic,153492
+Finland,Denmark,154313
+Latvia,Lithuania,155856
+Slovenia,Italy,157100
+Malta,Malta,158332
+Poland,Ireland,159287
+Bulgaria,Turkey,159317
+Czech Republic,France,159522
+Slovenia,Austria,161569
+Poland,Bulgaria,162217
+Spain,Romania,162516
+Greece,Other European,164895
+Finland,Norway,167050
+Bulgaria,Greece,170396
+Ireland,Germany,172343
+Belgium,Switzerland,172577
+Luxembourg,Belgium,176515
+Czech Republic,Turkey,181540
+Czech Republic,Spain,182013
+Lithuania,Other European,182089
+France,Norway,182715
+Romania,Greece,185357
+Poland,Hungary,186492
+Estonia,Sweden,189958
+Netherlands,Sweden,190217
+Hungary,Other European,191484
+Netherlands,Croatia,192193
+Estonia,Latvia,193083
+Austria,Poland,199986
+Hungary,Italy,202493
+Lithuania,United Kingdom,206601
+Switzerland,Other European,206658
+Finland,Greece,210578
+Austria,Other European,210633
+Switzerland,Netherlands,212253
+Denmark,Netherlands,213525
+France,Czech Republic,214898
+Portugal,France,218622
+Belgium,Portugal,218647
+Finland,France,223909
+Finland,Turkey,225016
+Denmark,Austria,225604
+Switzerland,Greece,226801
+Estonia,Finland,230055
+Belgium,Austria,230886
+Lithuania,Latvia,231944
+Hungary,Croatia,238435
+Romania,Italy,239394
+Slovenia,Other European,239718
+Spain,Netherlands,242599
+Austria,Slovenia,243057
+Poland,Netherlands,245819
+Switzerland,Turkey,245829
+Ireland,Italy,254314
+Spain,Belgium,255979
+Croatia,Italy,256969
+Poland,Norway,258701
+Poland,Sweden,259938
+Switzerland,Portugal,262700
+France,Poland,263264
+Austria,Czech Republic,266071
+Denmark,Greece,278139
+Cyprus,United Kingdom,284954
+Czech Republic,Germany,285327
+Denmark,Turkey,286752
+Czech Republic,Hungary,291357
+Czech Republic,Greece,293815
+Belgium,Greece,293828
+Netherlands,Switzerland,294839
+France,Croatia,295675
+Austria,Switzerland,303103
+Poland,Slovakia,303298
+Croatia,Austria,304250
+Croatia,Germany,308394
+Italy,Austria,310032
+Finland,United Kingdom,310042
+France,Other European,313718
+Croatia,Slovenia,314339
+Finland,Russia,316748
+Austria,United Kingdom,322545
+Ireland,Portugal,325731
+Finland,Italy,330234
+Austria,Hungary,330523
+Belgium,Turkey,330984
+Luxembourg,Germany,332036
+Poland,Austria,344858
+France,Ireland,350823
+Poland,Turkey,360393
+Italy,Croatia,361654
+France,Austria,368853
+Switzerland,United Kingdom,370495
+Luxembourg,France,375748
+Poland,France,375893
+Austria,Turkey,378047
+Austria,Greece,380399
+Denmark,France,382870
+Austria,France,402309
+Hungary,Romania,405269
+Italy,Romania,419662
+Finland,Germany,421369
+Belgium,United Kingdom,428056
+Netherlands,Portugal,438600
+Cyprus,Greece,445709
+Hungary,Slovakia,447359
+Poland,Greece,470728
+Poland,Spain,476497
+Ireland,France,478770
+Portugal,Spain,481672
+Poland,Czech Republic,495055
+Denmark,Norway,498119
+Hungary,Czech Republic,515459
+France,Turkey,516233
+Germany,Hungary,529065
+Denmark,United Kingdom,559857
+Austria,Spain,569412
+Poland,Croatia,570323
+Denmark,Italy,586990
+Czech Republic,Austria,599725
+Germany,Ireland,608565
+Spain,Other European,640220
+Spain,Germany,650558
+Czech Republic,Italy,654441
+Netherlands,Greece,677161
+Hungary,Germany,688255
+Belgium,Germany,689730
+Netherlands,Turkey,690235
+Hungary,Austria,696736
+France,Netherlands,704619
+Belgium,Italy,746147
+Germany,Norway,746759
+Croatia,Other European,757869
+Finland,Spain,786548
+Denmark,Spain,788793
+Czech Republic,Croatia,794512
+Poland,Italy,826608
+Poland,United Kingdom,872396
+Spain,United Kingdom,881139
+France,Greece,911545
+Italy,Other European,924010
+Netherlands,Italy,941121
+Switzerland,Austria,947165
+Netherlands,United Kingdom,963873
+Germany,Portugal,971204
+France,Switzerland,982099
+Netherlands,Austria,1000454
+Italy,United Kingdom,1006406
+Czech Republic,Slovakia,1006593
+Belgium,Netherlands,1016920
+Germany,Other European,1017545
+Germany,Sweden,1035253
+Switzerland,Spain,1070982
+Austria,Croatia,1085234
+Spain,Italy,1087786
+Germany,Russia,1134880
+Belgium,Spain,1150458
+Denmark,Sweden,1166447
+Ireland,Spain,1184788
+Italy,Germany,1190539
+Spain,Portugal,1281618
+Cyprus,Cyprus,1297214
+France,Portugal,1330528
+Germany,Belgium,1339362
+Netherlands,Belgium,1358391
+Italy,Spain,1457538
+Slovenia,Croatia,1494481
+Denmark,Germany,1566666
+Germany,Czech Republic,1632543
+Spain,France,1788883
+Netherlands,Spain,1827391
+Finland,Sweden,1841008
+Switzerland,France,1859456
+Italy,France,1875943
+Slovenia,Slovenia,1888108
+France,Belgium,1951791
+France,United Kingdom,1991378
+France,Germany,2001709
+Finland,Estonia,2024938
+Austria,Italy,2032915
+Poland,Germany,2060810
+Ireland,United Kingdom,2066214
+Netherlands,France,2137023
+Belgium,Belgium,2253573
+Germany,Denmark,2342399
+Austria,Germany,2346752
+Germany,Greece,2363798
+Switzerland,Italy,2385562
+Germany,Croatia,2418956
+Switzerland,Germany,2498006
+Estonia,Estonia,2572332
+Germany,Poland,2635042
+Germany,United Kingdom,2640606
+Lithuania,Lithuania,2649216
+Bulgaria,Bulgaria,3170122
+Latvia,Latvia,3257763
+France,Italy,3258636
+Netherlands,Germany,3368552
+Germany,Switzerland,3537623
+Belgium,France,3624666
+France,Spain,4743774
+Germany,Netherlands,4853948
+Germany,Turkey,4893317
+Croatia,Croatia,5410179
+Germany,France,5472093
+Greece,Greece,5621981
+Ireland,Ireland,6020143
+Switzerland,Switzerland,6525564
+Germany,Spain,9143204
+Germany,Italy,9485428
+Germany,Austria,10574871
+Austria,Austria,11476014
+Hungary,Hungary,12583784
+Portugal,Portugal,13195293
+Romania,Romania,16358249
+Denmark,Denmark,23873536
+Netherlands,Netherlands,24777935
+Czech Republic,Czech Republic,27042044
+Finland,Finland,28844933
+Poland,Poland,38387005
+Italy,Italy,43516686
+Spain,Spain,117619961
+Germany,Germany,153901939
+France,France,198929164

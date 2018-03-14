@@ -1,0 +1,959 @@
+source,target,weight
+Austria,Belgium,122
+Austria,Bulgaria,5
+Austria,Switzerland,175
+Austria,Cyprus,6
+Austria,Czech Republic,87
+Austria,Germany,976
+Austria,Denmark,202
+Austria,Estonia,39
+Austria,Spain,750
+Austria,Finland,257
+Austria,France,542
+Austria,United Kingdom,518
+Austria,Greece,29
+Austria,Croatia,54
+Austria,Hungary,35
+Austria,Ireland,192
+Austria,Iceland,42
+Austria,Italy,393
+Austria,Liechtenstein,7
+Austria,Lithuania,20
+Austria,Luxembourg,1
+Austria,Latvia,13
+Austria,Malta,27
+Austria,Netherlands,301
+Austria,Norway,170
+Austria,Poland,55
+Austria,Portugal,147
+Austria,Romania,7
+Austria,Sweden,439
+Austria,Slovenia,33
+Austria,Slovakia,18
+Austria,Turkey,131
+Belgium,Austria,168
+Belgium,Bulgaria,22
+Belgium,Switzerland,200
+Belgium,Cyprus,35
+Belgium,Czech Republic,127
+Belgium,Germany,610
+Belgium,Denmark,224
+Belgium,Estonia,30
+Belgium,Spain,1465
+Belgium,Finland,300
+Belgium,France,1163
+Belgium,United Kingdom,649
+Belgium,Greece,47
+Belgium,Croatia,21
+Belgium,Hungary,118
+Belgium,Ireland,195
+Belgium,Iceland,9
+Belgium,Italy,544
+Belgium,Liechtenstein,3
+Belgium,Lithuania,44
+Belgium,Luxembourg,93
+Belgium,Latvia,10
+Belgium,Malta,50
+Belgium,Netherlands,500
+Belgium,Norway,158
+Belgium,Poland,121
+Belgium,Portugal,299
+Belgium,Romania,43
+Belgium,Sweden,295
+Belgium,Slovenia,53
+Belgium,Slovakia,10
+Belgium,Turkey,148
+Bulgaria,Austria,82
+Bulgaria,Belgium,71
+Bulgaria,Switzerland,11
+Bulgaria,Cyprus,1
+Bulgaria,Czech Republic,89
+Bulgaria,Germany,314
+Bulgaria,Denmark,10
+Bulgaria,Estonia,10
+Bulgaria,Spain,163
+Bulgaria,Finland,14
+Bulgaria,France,133
+Bulgaria,United Kingdom,108
+Bulgaria,Greece,78
+Bulgaria,Croatia,22
+Bulgaria,Hungary,38
+Bulgaria,Ireland,8
+Bulgaria,Italy,112
+Bulgaria,Lithuania,13
+Bulgaria,Luxembourg,1
+Bulgaria,Latvia,19
+Bulgaria,Malta,32
+Bulgaria,Netherlands,34
+Bulgaria,Norway,9
+Bulgaria,Poland,112
+Bulgaria,Portugal,78
+Bulgaria,Romania,12
+Bulgaria,Sweden,29
+Bulgaria,Slovenia,13
+Bulgaria,Slovakia,27
+Bulgaria,Turkey,114
+Switzerland,Austria,131
+Switzerland,Belgium,110
+Switzerland,Bulgaria,6
+Switzerland,Czech Republic,27
+Switzerland,Germany,673
+Switzerland,Denmark,113
+Switzerland,Estonia,5
+Switzerland,Spain,345
+Switzerland,Finland,98
+Switzerland,France,429
+Switzerland,United Kingdom,311
+Switzerland,Greece,3
+Switzerland,Hungary,9
+Switzerland,Ireland,75
+Switzerland,Italy,170
+Switzerland,Lithuania,7
+Switzerland,Luxembourg,1
+Switzerland,Malta,6
+Switzerland,Netherlands,167
+Switzerland,Poland,24
+Switzerland,Portugal,46
+Switzerland,Romania,4
+Switzerland,Sweden,270
+Switzerland,Slovenia,4
+Switzerland,Slovakia,2
+Cyprus,Austria,10
+Cyprus,Belgium,28
+Cyprus,Switzerland,4
+Cyprus,Czech Republic,7
+Cyprus,Germany,8
+Cyprus,Denmark,3
+Cyprus,Spain,40
+Cyprus,Finland,6
+Cyprus,France,16
+Cyprus,United Kingdom,40
+Cyprus,Greece,141
+Cyprus,Ireland,4
+Cyprus,Italy,19
+Cyprus,Lithuania,6
+Cyprus,Netherlands,15
+Cyprus,Poland,15
+Cyprus,Portugal,15
+Cyprus,Sweden,12
+Cyprus,Turkey,6
+Czech Republic,Austria,369
+Czech Republic,Belgium,315
+Czech Republic,Bulgaria,33
+Czech Republic,Switzerland,107
+Czech Republic,Cyprus,37
+Czech Republic,Germany,1112
+Czech Republic,Denmark,174
+Czech Republic,Estonia,93
+Czech Republic,Spain,671
+Czech Republic,Finland,396
+Czech Republic,France,708
+Czech Republic,United Kingdom,591
+Czech Republic,Greece,181
+Czech Republic,Croatia,37
+Czech Republic,Hungary,63
+Czech Republic,Ireland,116
+Czech Republic,Iceland,23
+Czech Republic,Italy,308
+Czech Republic,Liechtenstein,8
+Czech Republic,Lithuania,122
+Czech Republic,Luxembourg,9
+Czech Republic,Latvia,47
+Czech Republic,Malta,41
+Czech Republic,Netherlands,302
+Czech Republic,Norway,237
+Czech Republic,Poland,188
+Czech Republic,Portugal,398
+Czech Republic,Romania,9
+Czech Republic,Sweden,261
+Czech Republic,Slovenia,179
+Czech Republic,Slovakia,129
+Czech Republic,Turkey,246
+Germany,Austria,854
+Germany,Belgium,680
+Germany,Bulgaria,46
+Germany,Switzerland,1157
+Germany,Cyprus,55
+Germany,Czech Republic,538
+Germany,Denmark,915
+Germany,Estonia,244
+Germany,Spain,6253
+Germany,Finland,1438
+Germany,France,5525
+Germany,United Kingdom,4490
+Germany,Greece,178
+Germany,Croatia,62
+Germany,Hungary,619
+Germany,Ireland,1331
+Germany,Iceland,152
+Germany,Italy,1966
+Germany,Liechtenstein,15
+Germany,Lithuania,153
+Germany,Luxembourg,119
+Germany,Latvia,188
+Germany,Malta,108
+Germany,Netherlands,1249
+Germany,Norway,1190
+Germany,Poland,1041
+Germany,Portugal,784
+Germany,Romania,108
+Germany,Sweden,2586
+Germany,Slovenia,123
+Germany,Slovakia,82
+Germany,Turkey,2008
+Denmark,Austria,96
+Denmark,Belgium,80
+Denmark,Bulgaria,31
+Denmark,Switzerland,77
+Denmark,Cyprus,18
+Denmark,Czech Republic,49
+Denmark,Germany,579
+Denmark,Estonia,25
+Denmark,Spain,433
+Denmark,Finland,23
+Denmark,France,348
+Denmark,United Kingdom,662
+Denmark,Greece,33
+Denmark,Croatia,2
+Denmark,Hungary,62
+Denmark,Ireland,104
+Denmark,Iceland,31
+Denmark,Italy,120
+Denmark,Liechtenstein,1
+Denmark,Lithuania,64
+Denmark,Luxembourg,1
+Denmark,Latvia,28
+Denmark,Malta,27
+Denmark,Netherlands,244
+Denmark,Norway,161
+Denmark,Poland,42
+Denmark,Portugal,79
+Denmark,Romania,65
+Denmark,Sweden,79
+Denmark,Slovenia,7
+Denmark,Slovakia,19
+Denmark,Turkey,120
+Estonia,Austria,29
+Estonia,Belgium,31
+Estonia,Bulgaria,12
+Estonia,Switzerland,8
+Estonia,Cyprus,12
+Estonia,Czech Republic,56
+Estonia,Germany,109
+Estonia,Denmark,23
+Estonia,Spain,99
+Estonia,Finland,109
+Estonia,France,67
+Estonia,United Kingdom,60
+Estonia,Greece,26
+Estonia,Croatia,2
+Estonia,Hungary,17
+Estonia,Ireland,4
+Estonia,Iceland,7
+Estonia,Italy,57
+Estonia,Lithuania,8
+Estonia,Latvia,27
+Estonia,Malta,12
+Estonia,Netherlands,47
+Estonia,Norway,17
+Estonia,Poland,11
+Estonia,Portugal,76
+Estonia,Romania,2
+Estonia,Sweden,41
+Estonia,Slovenia,11
+Estonia,Slovakia,4
+Estonia,Turkey,26
+Spain,Austria,579
+Spain,Belgium,1760
+Spain,Bulgaria,109
+Spain,Switzerland,363
+Spain,Cyprus,43
+Spain,Czech Republic,925
+Spain,Germany,4509
+Spain,Denmark,742
+Spain,Estonia,76
+Spain,Finland,959
+Spain,France,4330
+Spain,United Kingdom,4066
+Spain,Greece,243
+Spain,Croatia,101
+Spain,Hungary,430
+Spain,Ireland,987
+Spain,Iceland,44
+Spain,Italy,6946
+Spain,Liechtenstein,8
+Spain,Lithuania,271
+Spain,Luxembourg,19
+Spain,Latvia,103
+Spain,Malta,325
+Spain,Netherlands,1477
+Spain,Norway,487
+Spain,Poland,2803
+Spain,Portugal,2475
+Spain,Romania,296
+Spain,Sweden,934
+Spain,Slovenia,258
+Spain,Slovakia,237
+Spain,Turkey,330
+Finland,Austria,311
+Finland,Belgium,208
+Finland,Bulgaria,3
+Finland,Switzerland,96
+Finland,Cyprus,25
+Finland,Czech Republic,184
+Finland,Germany,1034
+Finland,Denmark,124
+Finland,Estonia,83
+Finland,Spain,666
+Finland,France,481
+Finland,United Kingdom,590
+Finland,Greece,55
+Finland,Croatia,15
+Finland,Hungary,150
+Finland,Ireland,155
+Finland,Iceland,37
+Finland,Italy,194
+Finland,Liechtenstein,4
+Finland,Lithuania,7
+Finland,Luxembourg,4
+Finland,Latvia,20
+Finland,Malta,33
+Finland,Netherlands,473
+Finland,Norway,60
+Finland,Poland,66
+Finland,Portugal,144
+Finland,Romania,5
+Finland,Sweden,210
+Finland,Slovenia,52
+Finland,Slovakia,24
+Finland,Turkey,56
+France,Austria,496
+France,Belgium,1486
+France,Bulgaria,80
+France,Switzerland,607
+France,Cyprus,61
+France,Czech Republic,868
+France,Germany,4412
+France,Denmark,783
+France,Estonia,122
+France,Spain,6397
+France,Finland,1236
+France,United Kingdom,6964
+France,Greece,288
+France,Croatia,88
+France,Hungary,610
+France,Ireland,2047
+France,Iceland,76
+France,Italy,2114
+France,Liechtenstein,2
+France,Lithuania,256
+France,Luxembourg,206
+France,Latvia,159
+France,FYROM,1
+France,Malta,446
+France,Netherlands,1377
+France,Norway,780
+France,Poland,1053
+France,Portugal,513
+France,Romania,424
+France,Sweden,1774
+France,Slovenia,165
+France,Slovakia,135
+France,Turkey,733
+United Kingdom,Austria,298
+United Kingdom,Belgium,341
+United Kingdom,Bulgaria,22
+United Kingdom,Switzerland,230
+United Kingdom,Cyprus,54
+United Kingdom,Czech Republic,186
+United Kingdom,Germany,2250
+United Kingdom,Denmark,264
+United Kingdom,Estonia,35
+United Kingdom,Spain,3645
+United Kingdom,Finland,198
+United Kingdom,France,4754
+United Kingdom,Greece,57
+United Kingdom,Croatia,13
+United Kingdom,Hungary,71
+United Kingdom,Ireland,216
+United Kingdom,Iceland,26
+United Kingdom,Italy,1122
+United Kingdom,Lithuania,14
+United Kingdom,Luxembourg,17
+United Kingdom,Latvia,14
+United Kingdom,Malta,103
+United Kingdom,Netherlands,749
+United Kingdom,Norway,151
+United Kingdom,Poland,89
+United Kingdom,Portugal,181
+United Kingdom,Romania,8
+United Kingdom,Sweden,361
+United Kingdom,Slovenia,20
+United Kingdom,Slovakia,19
+United Kingdom,Turkey,102
+Greece,Austria,103
+Greece,Belgium,178
+Greece,Bulgaria,11
+Greece,Switzerland,42
+Greece,Cyprus,125
+Greece,Czech Republic,262
+Greece,Germany,622
+Greece,Denmark,79
+Greece,Estonia,13
+Greece,Spain,525
+Greece,Finland,127
+Greece,France,638
+Greece,United Kingdom,323
+Greece,Croatia,9
+Greece,Hungary,69
+Greece,Ireland,22
+Greece,Iceland,2
+Greece,Italy,333
+Greece,Lithuania,26
+Greece,Luxembourg,1
+Greece,Latvia,10
+Greece,Malta,16
+Greece,Netherlands,172
+Greece,Norway,44
+Greece,Poland,157
+Greece,Portugal,219
+Greece,Romania,37
+Greece,Sweden,113
+Greece,Slovenia,18
+Greece,Slovakia,24
+Greece,Turkey,150
+Croatia,Austria,151
+Croatia,Belgium,44
+Croatia,Bulgaria,10
+Croatia,Switzerland,9
+Croatia,Cyprus,1
+Croatia,Czech Republic,61
+Croatia,Germany,214
+Croatia,Denmark,3
+Croatia,Estonia,6
+Croatia,Spain,145
+Croatia,Finland,12
+Croatia,France,84
+Croatia,United Kingdom,38
+Croatia,Greece,6
+Croatia,Hungary,40
+Croatia,Ireland,4
+Croatia,Italy,109
+Croatia,Lithuania,21
+Croatia,Latvia,7
+Croatia,Malta,10
+Croatia,Netherlands,20
+Croatia,Norway,2
+Croatia,Poland,117
+Croatia,Portugal,96
+Croatia,Sweden,19
+Croatia,Slovenia,126
+Croatia,Slovakia,40
+Croatia,Turkey,8
+Hungary,Austria,278
+Hungary,Belgium,171
+Hungary,Bulgaria,17
+Hungary,Switzerland,33
+Hungary,Cyprus,17
+Hungary,Czech Republic,77
+Hungary,Germany,882
+Hungary,Denmark,78
+Hungary,Estonia,25
+Hungary,Spain,368
+Hungary,Finland,184
+Hungary,France,286
+Hungary,United Kingdom,187
+Hungary,Greece,86
+Hungary,Croatia,17
+Hungary,Ireland,35
+Hungary,Iceland,4
+Hungary,Italy,281
+Hungary,Liechtenstein,5
+Hungary,Lithuania,31
+Hungary,Luxembourg,4
+Hungary,Latvia,13
+Hungary,Malta,23
+Hungary,Netherlands,249
+Hungary,Norway,34
+Hungary,Poland,176
+Hungary,Portugal,146
+Hungary,Romania,91
+Hungary,Sweden,42
+Hungary,Slovenia,33
+Hungary,Slovakia,34
+Hungary,Turkey,118
+Ireland,Austria,59
+Ireland,Belgium,106
+Ireland,Bulgaria,11
+Ireland,Switzerland,34
+Ireland,Cyprus,4
+Ireland,Czech Republic,50
+Ireland,Germany,368
+Ireland,Denmark,66
+Ireland,Estonia,3
+Ireland,Spain,508
+Ireland,Finland,37
+Ireland,France,756
+Ireland,United Kingdom,413
+Ireland,Greece,6
+Ireland,Hungary,31
+Ireland,Iceland,13
+Ireland,Italy,70
+Ireland,Liechtenstein,1
+Ireland,Lithuania,3
+Ireland,Luxembourg,45
+Ireland,Malta,35
+Ireland,Netherlands,176
+Ireland,Norway,24
+Ireland,Poland,26
+Ireland,Portugal,15
+Ireland,Sweden,96
+Ireland,Slovenia,10
+Ireland,Turkey,6
+Iceland,Austria,11
+Iceland,Belgium,10
+Iceland,Czech Republic,6
+Iceland,Germany,19
+Iceland,Denmark,37
+Iceland,Estonia,3
+Iceland,Spain,19
+Iceland,Finland,7
+Iceland,France,18
+Iceland,United Kingdom,24
+Iceland,Greece,2
+Iceland,Hungary,6
+Iceland,Ireland,2
+Iceland,Italy,14
+Iceland,Lithuania,2
+Iceland,Netherlands,12
+Iceland,Poland,1
+Iceland,Portugal,1
+Iceland,Romania,5
+Iceland,Sweden,36
+Iceland,Slovenia,2
+Italy,Austria,478
+Italy,Belgium,1217
+Italy,Bulgaria,28
+Italy,Switzerland,338
+Italy,Cyprus,28
+Italy,Czech Republic,346
+Italy,Germany,3012
+Italy,Denmark,389
+Italy,Estonia,105
+Italy,Spain,7636
+Italy,Finland,472
+Italy,France,3608
+Italy,United Kingdom,2360
+Italy,Greece,197
+Italy,Croatia,42
+Italy,Hungary,324
+Italy,Ireland,402
+Italy,Iceland,36
+Italy,Liechtenstein,1
+Italy,Lithuania,164
+Italy,Luxembourg,26
+Italy,Latvia,63
+Italy,Malta,176
+Italy,Netherlands,893
+Italy,Norway,329
+Italy,Poland,705
+Italy,Portugal,1400
+Italy,Romania,265
+Italy,Sweden,601
+Italy,Slovenia,70
+Italy,Slovakia,85
+Italy,Turkey,535
+Liechtenstein,Belgium,2
+Liechtenstein,Cyprus,1
+Liechtenstein,Germany,5
+Liechtenstein,Denmark,1
+Liechtenstein,Spain,6
+Liechtenstein,Finland,5
+Liechtenstein,France,1
+Liechtenstein,United Kingdom,1
+Liechtenstein,Ireland,2
+Liechtenstein,Iceland,1
+Liechtenstein,Netherlands,3
+Liechtenstein,Norway,2
+Lithuania,Austria,56
+Lithuania,Belgium,92
+Lithuania,Bulgaria,29
+Lithuania,Switzerland,30
+Lithuania,Cyprus,88
+Lithuania,Czech Republic,121
+Lithuania,Germany,248
+Lithuania,Denmark,128
+Lithuania,Estonia,43
+Lithuania,Spain,350
+Lithuania,Finland,165
+Lithuania,France,159
+Lithuania,United Kingdom,144
+Lithuania,Greece,176
+Lithuania,Croatia,41
+Lithuania,Hungary,73
+Lithuania,Ireland,16
+Lithuania,Iceland,10
+Lithuania,Italy,225
+Lithuania,Luxembourg,5
+Lithuania,Latvia,114
+Lithuania,Malta,96
+Lithuania,Netherlands,94
+Lithuania,Norway,83
+Lithuania,Poland,109
+Lithuania,Portugal,264
+Lithuania,Romania,13
+Lithuania,Sweden,114
+Lithuania,Slovenia,58
+Lithuania,Slovakia,37
+Lithuania,Turkey,242
+Luxembourg,Austria,9
+Luxembourg,Belgium,28
+Luxembourg,Switzerland,18
+Luxembourg,Cyprus,1
+Luxembourg,Czech Republic,8
+Luxembourg,Germany,182
+Luxembourg,Spain,12
+Luxembourg,Finland,4
+Luxembourg,France,115
+Luxembourg,United Kingdom,7
+Luxembourg,Hungary,6
+Luxembourg,Italy,8
+Luxembourg,Liechtenstein,1
+Luxembourg,Latvia,1
+Luxembourg,Netherlands,4
+Luxembourg,Poland,2
+Luxembourg,Portugal,20
+Luxembourg,Sweden,8
+Latvia,Austria,40
+Latvia,Belgium,61
+Latvia,Bulgaria,37
+Latvia,Switzerland,11
+Latvia,Cyprus,41
+Latvia,Czech Republic,64
+Latvia,Germany,239
+Latvia,Denmark,70
+Latvia,Estonia,88
+Latvia,Spain,231
+Latvia,Finland,88
+Latvia,France,116
+Latvia,United Kingdom,64
+Latvia,Greece,94
+Latvia,Croatia,10
+Latvia,Hungary,31
+Latvia,Ireland,6
+Latvia,Iceland,17
+Latvia,Italy,75
+Latvia,Liechtenstein,7
+Latvia,Lithuania,225
+Latvia,Luxembourg,5
+Latvia,Malta,28
+Latvia,Netherlands,86
+Latvia,Norway,81
+Latvia,Poland,85
+Latvia,Portugal,106
+Latvia,Romania,11
+Latvia,Sweden,59
+Latvia,Slovenia,25
+Latvia,Slovakia,27
+Latvia,Turkey,57
+FYROM,Austria,5
+FYROM,Belgium,2
+FYROM,Bulgaria,5
+FYROM,Czech Republic,3
+FYROM,Germany,3
+FYROM,Estonia,1
+FYROM,Spain,2
+FYROM,France,4
+FYROM,Croatia,8
+FYROM,Italy,13
+FYROM,Lithuania,1
+FYROM,Latvia,2
+FYROM,Netherlands,4
+FYROM,Poland,7
+FYROM,Portugal,3
+FYROM,Romania,5
+FYROM,Sweden,3
+FYROM,Slovenia,16
+FYROM,Slovakia,2
+Malta,Belgium,8
+Malta,Czech Republic,10
+Malta,Germany,19
+Malta,Denmark,10
+Malta,Spain,12
+Malta,Finland,3
+Malta,France,7
+Malta,United Kingdom,67
+Malta,Ireland,15
+Malta,Italy,52
+Malta,Lithuania,1
+Malta,Netherlands,5
+Malta,Norway,3
+Malta,Poland,9
+Malta,Portugal,5
+Malta,Sweden,2
+Malta,Slovenia,2
+Netherlands,Austria,244
+Netherlands,Belgium,646
+Netherlands,Bulgaria,31
+Netherlands,Switzerland,207
+Netherlands,Cyprus,13
+Netherlands,Czech Republic,122
+Netherlands,Germany,1347
+Netherlands,Denmark,359
+Netherlands,Estonia,27
+Netherlands,Spain,1680
+Netherlands,Finland,343
+Netherlands,France,804
+Netherlands,United Kingdom,1689
+Netherlands,Greece,50
+Netherlands,Croatia,9
+Netherlands,Hungary,228
+Netherlands,Ireland,234
+Netherlands,Iceland,31
+Netherlands,Italy,426
+Netherlands,Lithuania,42
+Netherlands,Luxembourg,7
+Netherlands,Latvia,33
+Netherlands,Malta,107
+Netherlands,Norway,292
+Netherlands,Poland,98
+Netherlands,Portugal,237
+Netherlands,Romania,20
+Netherlands,Sweden,739
+Netherlands,Slovenia,22
+Netherlands,Slovakia,13
+Netherlands,Turkey,538
+Norway,Austria,45
+Norway,Belgium,55
+Norway,Czech Republic,31
+Norway,Germany,249
+Norway,Denmark,183
+Norway,Estonia,4
+Norway,Spain,143
+Norway,Finland,10
+Norway,France,219
+Norway,United Kingdom,263
+Norway,Greece,11
+Norway,Croatia,5
+Norway,Hungary,20
+Norway,Ireland,40
+Norway,Italy,103
+Norway,Latvia,2
+Norway,Malta,12
+Norway,Netherlands,126
+Norway,Poland,13
+Norway,Portugal,62
+Norway,Romania,5
+Norway,Sweden,59
+Norway,Slovenia,4
+Norway,Slovakia,2
+Poland,Austria,330
+Poland,Belgium,428
+Poland,Bulgaria,207
+Poland,Switzerland,121
+Poland,Cyprus,87
+Poland,Czech Republic,566
+Poland,Germany,2285
+Poland,Denmark,282
+Poland,Estonia,67
+Poland,Spain,2599
+Poland,Finland,235
+Poland,France,1272
+Poland,United Kingdom,788
+Poland,Greece,473
+Poland,Croatia,224
+Poland,Hungary,305
+Poland,Ireland,132
+Poland,Iceland,44
+Poland,Italy,1336
+Poland,Liechtenstein,2
+Poland,Lithuania,134
+Poland,Luxembourg,9
+Poland,Latvia,68
+Poland,Malta,142
+Poland,Netherlands,395
+Poland,Norway,232
+Poland,Portugal,1325
+Poland,Romania,81
+Poland,Sweden,263
+Poland,Slovenia,195
+Poland,Slovakia,323
+Poland,Turkey,571
+Portugal,Austria,105
+Portugal,Belgium,251
+Portugal,Bulgaria,45
+Portugal,Switzerland,93
+Portugal,Cyprus,8
+Portugal,Czech Republic,403
+Portugal,Germany,399
+Portugal,Denmark,103
+Portugal,Estonia,31
+Portugal,Spain,1498
+Portugal,Finland,153
+Portugal,France,427
+Portugal,United Kingdom,318
+Portugal,Greece,48
+Portugal,Croatia,55
+Portugal,Hungary,196
+Portugal,Ireland,39
+Portugal,Iceland,3
+Portugal,Italy,833
+Portugal,Lithuania,135
+Portugal,Luxembourg,9
+Portugal,Latvia,29
+Portugal,Malta,4
+Portugal,Netherlands,278
+Portugal,Norway,60
+Portugal,Poland,831
+Portugal,Romania,177
+Portugal,Sweden,105
+Portugal,Slovenia,127
+Portugal,Slovakia,72
+Portugal,Turkey,122
+Romania,Austria,133
+Romania,Belgium,183
+Romania,Bulgaria,27
+Romania,Switzerland,19
+Romania,Cyprus,25
+Romania,Czech Republic,88
+Romania,Germany,592
+Romania,Denmark,81
+Romania,Estonia,6
+Romania,Spain,674
+Romania,Finland,40
+Romania,France,1080
+Romania,United Kingdom,159
+Romania,Greece,292
+Romania,Croatia,18
+Romania,Hungary,521
+Romania,Ireland,16
+Romania,Iceland,27
+Romania,Italy,643
+Romania,Liechtenstein,3
+Romania,Lithuania,17
+Romania,Latvia,13
+Romania,Malta,55
+Romania,Netherlands,94
+Romania,Norway,71
+Romania,Poland,264
+Romania,Portugal,263
+Romania,Sweden,47
+Romania,Slovenia,9
+Romania,Slovakia,23
+Romania,Turkey,259
+Sweden,Austria,146
+Sweden,Belgium,117
+Sweden,Bulgaria,4
+Sweden,Switzerland,205
+Sweden,Cyprus,1
+Sweden,Czech Republic,84
+Sweden,Germany,472
+Sweden,Denmark,79
+Sweden,Estonia,4
+Sweden,Spain,352
+Sweden,Finland,25
+Sweden,France,545
+Sweden,United Kingdom,694
+Sweden,Greece,21
+Sweden,Croatia,8
+Sweden,Hungary,25
+Sweden,Ireland,117
+Sweden,Iceland,17
+Sweden,Italy,180
+Sweden,Lithuania,9
+Sweden,Latvia,1
+Sweden,Malta,5
+Sweden,Netherlands,345
+Sweden,Norway,69
+Sweden,Poland,29
+Sweden,Portugal,81
+Sweden,Romania,4
+Sweden,Slovenia,9
+Sweden,Slovakia,1
+Sweden,Turkey,71
+Slovenia,Austria,166
+Slovenia,Belgium,51
+Slovenia,Bulgaria,5
+Slovenia,Switzerland,30
+Slovenia,Cyprus,10
+Slovenia,Czech Republic,106
+Slovenia,Germany,283
+Slovenia,Denmark,35
+Slovenia,Estonia,6
+Slovenia,Spain,232
+Slovenia,Finland,50
+Slovenia,France,96
+Slovenia,United Kingdom,74
+Slovenia,Greece,5
+Slovenia,Croatia,79
+Slovenia,Hungary,15
+Slovenia,Ireland,23
+Slovenia,Iceland,11
+Slovenia,Italy,61
+Slovenia,Lithuania,13
+Slovenia,Latvia,2
+Slovenia,Malta,30
+Slovenia,Netherlands,68
+Slovenia,Norway,15
+Slovenia,Poland,45
+Slovenia,Portugal,188
+Slovenia,Sweden,34
+Slovenia,Slovakia,11
+Slovenia,Turkey,48
+Slovakia,Austria,137
+Slovakia,Belgium,82
+Slovakia,Bulgaria,22
+Slovakia,Switzerland,10
+Slovakia,Cyprus,6
+Slovakia,Czech Republic,637
+Slovakia,Germany,419
+Slovakia,Denmark,38
+Slovakia,Estonia,30
+Slovakia,Spain,288
+Slovakia,Finland,101
+Slovakia,France,217
+Slovakia,United Kingdom,78
+Slovakia,Greece,48
+Slovakia,Croatia,32
+Slovakia,Hungary,65
+Slovakia,Ireland,19
+Slovakia,Iceland,11
+Slovakia,Italy,151
+Slovakia,Lithuania,51
+Slovakia,Luxembourg,2
+Slovakia,Latvia,26
+Slovakia,Malta,19
+Slovakia,Netherlands,55
+Slovakia,Norway,45
+Slovakia,Poland,232
+Slovakia,Portugal,166
+Slovakia,Romania,11
+Slovakia,Sweden,46
+Slovakia,Slovenia,60
+Slovakia,Turkey,73
+Turkey,Austria,269
+Turkey,Belgium,357
+Turkey,Bulgaria,36
+Turkey,Czech Republic,680
+Turkey,Germany,2519
+Turkey,Denmark,181
+Turkey,Estonia,78
+Turkey,Spain,1070
+Turkey,Finland,184
+Turkey,France,673
+Turkey,United Kingdom,661
+Turkey,Greece,130
+Turkey,Croatia,13
+Turkey,Hungary,587
+Turkey,Ireland,64
+Turkey,Italy,1226
+Turkey,Lithuania,607
+Turkey,Luxembourg,1
+Turkey,Latvia,219
+Turkey,Malta,10
+Turkey,Netherlands,537
+Turkey,Poland,3167
+Turkey,Portugal,598
+Turkey,Romania,481
+Turkey,Sweden,335
+Turkey,Slovenia,156
