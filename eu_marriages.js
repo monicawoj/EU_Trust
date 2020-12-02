@@ -30,14 +30,14 @@ var yAxis2 = d3.svg.axis()
 
 var tip = d3.tip()
   .attr('class', 'd3-tip')
-  .offset([-40, -110])
+  .offset([0, -110])
   .html(function(d) {
     return "<span style='color:white'>" + d.BrideCountry + " " + Math.ceil(d.EU28*10000)/100 + "%</span>";
   })
 
 var tip2 = d3.tip()
   .attr('class', 'd3-tip')
-  .offset([40, -110])
+  .offset([0, -110])
   .html(function(d) {
     return "<strong>National:</strong> <span style='color:red'>" + d.National + "</span>";
   })
