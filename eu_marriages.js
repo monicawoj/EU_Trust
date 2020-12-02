@@ -28,20 +28,6 @@ var yAxis2 = d3.svg.axis()
     .tickValues([.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
     .tickFormat(formatPercent);
 
-var tip = d3.tip()
-  .attr('class', 'd3-tip')
-  .offset([0, -110])
-  .html(function(d) {
-    return "<span style='color:white'>" + d.BrideCountry + " " + Math.ceil(d.EU28*10000)/100 + "%</span>";
-  })
-
-var tip2 = d3.tip()
-  .attr('class', 'd3-tip')
-  .offset([0, -110])
-  .html(function(d) {
-    return "<strong>National:</strong> <span style='color:red'>" + d.National + "</span>";
-  })
-
 var svg = d3.select("#svg5")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -96,8 +82,6 @@ d3.csv("marriage_data.csv", type, function(error, data) {
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.EU28); })
       .attr("height", function(d) { return height - y(d.EU28); })
-      .on('mouseover', tip.show)
-      .on('mouseout', tip.hide)
 
   svg2.selectAll(".bar")
       .data(data)
@@ -107,8 +91,6 @@ d3.csv("marriage_data.csv", type, function(error, data) {
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return 0; })
       .attr("height", function(d) { return y2(d.National); })
-      .on('mouseover', tip2.show)
-      .on('mouseout', tip2.hide)
 
 });
 
