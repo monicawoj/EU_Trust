@@ -34,8 +34,6 @@ var svg = d3.select("#svg5")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-svg.call(tip);
-
 var svg2 = d3.select("#svg6")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
